@@ -1,1 +1,1 @@
-[JoshGames Website](JoshTGames.github.io)
+# JoshTGames.github.io
