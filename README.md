@@ -1,1 +1,1 @@
-[JoshGames Website](http://joshgames.co.uk/)
+[JoshGames Website](JoshTGames.github.io)
