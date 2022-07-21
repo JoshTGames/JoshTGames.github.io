@@ -1,1 +1,1 @@
-# JoshTGames.github.io
+# JoshGames.github.io
