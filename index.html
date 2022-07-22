@@ -7,28 +7,45 @@
     <title>JoshGames || Home</title>
     <link rel="icon" href="images\favicon.ico?">
     <link rel="stylesheet" href="styles.css">
+
+    <style>
+        img {
+          border-radius: 8px;
+        }
+
+        img:hover {
+            opacity: 0.7;            
+        }
+    </style>
 </head>
 <body>
+    <!-- NAVBAR SECTION -->
     <nav class="navbar">
         <div class="navbar_container">
-            <a href="/" id="navbar_logo"><img src = "images\homebtn.PNG" alt="Home Page"  width=60" height="60"></a> <!-- PUT A LOGO HERE-->
+            <a href="/" id="navbar_logo"><img src = "images\homebtn.PNG" alt="Home Page" width=60" height="60"></a>
             <div class="navbar_toggle" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </div>
             <ul class="navbar_menu">
-                <li class="navbar_item">
-                    <a href="/" class="navbar_links">Home</a>
+                <li class="navbar_btn">
+                    <a href="/" class="button">Home</a>
                 </li>
-                <li class="navbar_item">
-                    <a href="/projects.html" class="navbar_links">Projects</a>
+                <li class="navbar_btn">
+                    <a href="/projects.html" class="button">Projects</a>
                 </li>
-                <li class="navbar_item">
-                    <a href="/" class="navbar_links">Contact</a>
-                </li>                
+                <li class="navbar_btn">
+                    <a href="/contact.html" class="button">Contact</a>
+                </li>          
             </ul>
         </div>
     <nav>
+    <!-- HERO SECTION -->
+    <div class="main_container">
+        <div class="main_content"></div>
+    </div>
+    
+    <script src="app.js"></script>
 </body>
 </html>
