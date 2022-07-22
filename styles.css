@@ -93,12 +93,12 @@
 
 .button:hover {
     background: #737373;
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
 }
 
 .navbar_links:hover {
     color: #FF0000;
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
 }
 
 /* THIS SECTION IS FOR WHEN CONTENT DOES NOT FIT ON SCREEN E.G. Mobile */
@@ -188,7 +188,7 @@
     #mobile-menu.is-active .bar:nth-child(2) {
         opacity: 0;
     }
-}
+
     #mobile-menu.is-active .bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);        
     }
