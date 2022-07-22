@@ -23,7 +23,7 @@
     height: 80px;
     z-index: 1;
     width: 100%;
-    max-width: 1300px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0 50px;
 }
@@ -37,7 +37,7 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-co0lor: transparent;
     display: flex;
-    align-items: center;
+    align-items: center;    
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;    
