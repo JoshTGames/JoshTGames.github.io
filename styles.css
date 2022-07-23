@@ -1,4 +1,5 @@
 * {
+    /*background-color: #1A1A1A; */
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -17,7 +18,7 @@
     z-index:  999;
 }
 
-.navbar_container {
+.navbar-container {
     display: flex;
     justify-content: space-between;
     height: 80px;
@@ -28,7 +29,7 @@
     padding: 0 50px;
 }
 
-#navbar_logo {
+#navbar-logo {
     background-color: #1A1A1A;
     background-image: linear-gradient(to top, #1A1A1A 0%, #404040 100%);
     background-size: 100%;
@@ -40,25 +41,23 @@
     align-items: center;    
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;    
+    font-size: 2rem;   
+    border-collapse: separate;
+    border-radius: 8px;
 }
 
-.fa-gem {
-    margin-right: 0.5rem;
-}
-
-.navbar_menu {
+.navbar-menu {
     display: flex;
     align-items: center;
     list-style: none;
     text-align: center;
 }
 
-.navbar_item {
+.navbar-item {
     height: 80px;
 }
 
-.navbar_links {
+.navbar-links {
     color: #ffffff;
     display: flex;
     align-items: center;
@@ -68,7 +67,7 @@
     height: 100%;
 }
 
-.navbar_btn {
+.navbar-btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,14 +95,19 @@
     transition: all 0.3s ease;
 }
 
-.navbar_links:hover {
+.navbar-links:hover {
     color: #FF0000;
     transition: all 0.3s ease;
 }
 
+#navbar-logo:hover {
+    opacity: .7;    
+}
+
+
 /* THIS SECTION IS FOR WHEN CONTENT DOES NOT FIT ON SCREEN E.G. Mobile */
 @media screen and (max-width: 960px) {
-    .navbar_container {
+    .navbar-container {
         display: flex;
         justify-content: space-between;
         height: 80px;
@@ -113,7 +117,7 @@
         padding: 0;
     }
 
-    .navbar_menu {
+    .navbar-menu {
         display: grid;
         grid-template-columns: auto;
         margin: 0;
@@ -127,7 +131,7 @@
         background: #131313;
     }
 
-    .navbar_menu.active {
+    .navbar-menu.active {
         background: #131313;
         top: 100%;
         opacity: 1;
@@ -137,11 +141,11 @@
         font-size: 1.6rem;
     }
 
-    #navbar_logo {
+    #navbar-logo {
         padding-left: 25px;
     }
 
-    .navbar_toggle .bar {
+    .navbar-toggle .bar {
         width: 25px;
         height: 3px;
         margin: 5px auto;
@@ -149,11 +153,11 @@
         background: #ffffff
     }
 
-    .navbar_item {
+    .navbar-item {
         width: 100%;
     }
 
-    .navbar_links {
+    .navbar-links {
         text-align: center;
         padding: 2rem;
         width: 100%;
@@ -167,7 +171,7 @@
         transform: translate(5%, 20%);        
     }
 
-    .navbar_btn {
+    .navbar-btn {
         padding-bottom: 2rem;        
     }
 
@@ -180,7 +184,7 @@
         margin: 0;
     }
 
-    .navbar_toggle .bar {
+    .navbar-toggle .bar {
         display: block;
         cursor: pointer;
     }
