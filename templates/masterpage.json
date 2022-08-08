@@ -1,0 +1,35 @@
+{
+    "Main": {
+        "favicon" : "images\\favicon.ico?",
+        "title" : "JoshGames || "
+    },
+
+    "Header": {
+        "siteicon": "images\\homebtn.PNG",
+        "sitetitle": "Joshua Thompson",
+        "sitebrief": "Game Development Portfolio",
+        "sitepages":[
+            {
+                "pagename": "Home",
+                "redirect": "/"
+            },
+            {
+                "pagename": "Projects",
+                "redirect": "/projects.html"
+            },
+            {
+                "pagename": "Contact",
+                "redirect": "/contact.html"
+            }
+        ]
+    },
+
+    "Footer": [
+        {
+            "sitesocials":{
+
+            },
+            "text": ""
+        }
+    ]    
+}
