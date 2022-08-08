@@ -11,7 +11,8 @@ function generateMain(data){
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href=${data.favicon}>               
+        <link rel="icon" href=${data.favicon}>
+        <script src=${data.fontawesomekit} crossorigin="anonymous"></script>               
     `;
 
     element = document.getElementById("title");
@@ -65,9 +66,22 @@ function generateHeader(data){
     `;      
 }
 
+// generates a html footer from json
+function generateFooter(data){   
+    // Gets the header ID from html files
+    element = document.getElementById("footer");    
+    element.innerHTML = `
+        <link rel="stylesheet" href="/css/footer.css">
+        <div id="site-footer">
+            <hr>
+            <p id="footer-text">${data.text}</p>
+        </div>
+    `;
+}
 
 // Parse the header information into JS
 async function parsePageInfo(json){
     generateMain(json.Main);
     generateHeader(json.Header);    
+    generateFooter(json.Footer);
 }

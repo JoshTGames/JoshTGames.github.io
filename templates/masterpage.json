@@ -1,7 +1,8 @@
 {
     "Main": {
-        "favicon" : "images\\favicon.ico?",
-        "title" : "JoshGames || "
+        "favicon": "images\\favicon.ico?",
+        "title": "JoshGames || ",
+        "fontawesomekit": "https://kit.fontawesome.com/7c7556d57f.js"
     },
 
     "Header": {
@@ -24,12 +25,9 @@
         ]
     },
 
-    "Footer": [
-        {
-            "sitesocials":{
-
-            },
-            "text": ""
-        }
-    ]    
+    "Footer":{
+        "sitesocials":{},
+        "text": "Copyright <i class='fa-solid fa-copyright'></i> 2022-2023 Joshua Thompson. All Rights Reserved."
+    }
+    
 }
