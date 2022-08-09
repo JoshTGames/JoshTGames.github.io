@@ -58,6 +58,11 @@
     color: #ffffff;  
 }
 
+#embedURL{
+    text-decoration: none;
+    color: #ff6b6b;
+}
+
 /* THIS SECTION IS FOR WHEN CONTENT DOES NOT FIT ON SCREEN E.G. Mobile */
 @media screen and (max-width: 960px) {
     #main-content-title {
@@ -87,24 +92,6 @@
     #skill-duration-label{
         font-size: 1rem;
         color: #ffffff;  
-    }
-
-    #aboutme {
-        display: flex;         
-        justify-content: center;
-        align-items: top;
-        position: sticky;  
-        text-align: center;
-        margin: 0% 25%;    
-    }
-    
-    #aboutmetwo {
-        display: block;         
-        justify-content: center;
-        align-items: top;
-        position: sticky;  
-        text-align: center;
-        margin: 0% 25%;    
     }
     
     #aboutme-text{    

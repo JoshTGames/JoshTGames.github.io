@@ -1,10 +1,10 @@
 {
     "AboutMe": [
-        "Hey, I'm Joshua Thompson from Cornwall UK, 20 years old and currently studying Game Development: Programming at Falmouth University. -- Studying in 3rd Year.",
-        "I've been programming ever since I started secondary school in year 7 and due to my passion for programming, I chose to take on GCSE and A-Level Computer Science & IT."
+        "Hey, I'm Joshua Thompson from Cornwall UK. I'm 20 years old and currently studying Game Development: Programming at Falmouth University. -- Studying in 3rd Year.",
+        "I've been programming ever since I started secondary school in year 7. Due to my passion for programming, I chose to take on GCSE and A-Level Computer Science & IT."
     ],
     "AboutMeTwo": [
-        "During Sixth-form, in my free time I decided to start delving into Unity... This was when my first commercialised game <a href='https://store.steampowered.com/app/1387610/Cowboys_n_Stuff/'>Cowboys n' Stuff</a> came to life and was published onto steam.",
-        "My personal interests as far as programming goes, lies with Artificial Intelligence and procedural content. This is because they are an ever-growing concept in industry and the robotics industry; evolving in concepts each day."
+        "In Sixth-form, during my free time I decided to start delving into the Unity engine... A year and a little bit later was when my first commercialised game <a href='https://store.steampowered.com/app/1387610/Cowboys_n_Stuff/' id='embedURL'>Cowboys n' Stuff</a> came to life and was published onto steam.",
+        "My personal interests as far as programming goes, lies with Artificial Intelligence and procedural content. This is because they are an ever-growing concept in the games industry and the robotics industry for the matter; evolving each day."
     ]
 }
