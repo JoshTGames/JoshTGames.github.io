@@ -1,0 +1,68 @@
+* {    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: '', sans-serif;
+}
+
+#main-content-skills-title {
+    display: flex;
+    font-size: 2rem;    
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    margin: 1% 10%;   
+    
+    color: #ffffff;    
+}
+
+#skills {
+    display: flex;
+    font-size: 2rem;        
+    justify-content: center;
+    align-items: center;
+    position: sticky;        
+}
+
+#skill-slot {      
+    margin: 1% 2%;       
+}
+
+#skill-duration-label{
+    font-size: 1rem;
+    color: #ffffff;  
+}
+
+/* THIS SECTION IS FOR WHEN CONTENT DOES NOT FIT ON SCREEN E.G. Mobile */
+@media screen and (max-width: 960px) {
+    #main-content-skills-title {
+        display: flex;
+        font-size: 2rem;    
+        text-align: center; 
+        justify-content: center;
+        align-items: center;
+        position: sticky;
+        margin: 1% 10%;   
+        
+        color: #ffffff;    
+    }
+    
+    #skills {
+        display: flex;
+        font-size: 2rem;        
+        justify-content: center;
+        align-items: center;
+        position: sticky;   
+        transform: scale(.4,.4);     
+    }
+    
+    #skill-slot { 
+        margin: 1% 2%;   
+    }
+    
+    #skill-duration-label{
+        font-size: 1rem;
+        color: #ffffff;  
+    }
+}

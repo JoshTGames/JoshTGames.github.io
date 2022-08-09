@@ -1,0 +1,49 @@
+{
+    "Skills": [
+        {
+            "technology" : "C#",
+            "icon" : "images\\icon_csharp.png?",
+            "duration" : "5 Years+"
+        },
+        {
+            "technology" : "Unity",
+            "icon" : "images\\icon_unity.png?",
+            "duration" : "5 Years+"
+        },
+        {
+            "technology" : "Git",
+            "icon" : "images\\icon_git.png?",
+            "duration" : "2 Years+"
+        },
+        {
+            "technology" : "Python",
+            "icon" : "images\\icon_python.png?",
+            "duration" : "5 Years+"
+        },
+        {
+            "technology" : "Trello",
+            "icon" : "images\\icon_trello.png?",
+            "duration" : "2 Years+"
+        },
+        {
+            "technology" : "HTML",
+            "icon" : "images\\icon_html.png?",
+            "duration" : "2 Years+"
+        },
+        {
+            "technology" : "Javascript",
+            "icon" : "images\\icon_javascript.png?",
+            "duration" : "2 Years+"
+        },
+        {
+            "technology" : "CSS",
+            "icon" : "images\\icon_css.png?",
+            "duration" : "<1 Year"
+        },
+        {
+            "technology" : "Lua",
+            "icon" : "images\\icon_lua.png?",
+            "duration" : "5 Years+"
+        }
+    ]
+}
