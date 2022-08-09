@@ -75,12 +75,22 @@ function generateHeader(data){
 
 // generates a html footer from json
 function generateFooter(data){   
+    let buttons = "";
+    for(let i = 0; i < data.sitesocials.length; i++){
+        buttons += `
+            <a href=${data.sitesocials[i].link} id="social-button"><img src = ${data.sitesocials[i].icon} alt=${data.sitesocials[i].type} width=32" height="32"></a>
+        `;
+    };
+
     // Gets the header ID from html files
     element = document.getElementById("footer");    
     element.innerHTML = `
         <link rel="stylesheet" href="/css/footer.css">
         <div id="site-footer">
             <hr>
+            <div id="site-footer-socials">
+                ${buttons}
+            </div>
             <p id="footer-text">${data.text}</p>
         </div>
     `;
