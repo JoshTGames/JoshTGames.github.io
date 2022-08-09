@@ -5,7 +5,7 @@
     },
 
     "Header": {
-        "siteicon": "images\\icon_site.PNG?",
+        "siteicon": "images\\icon_steam.PNG?",
         "sitetitle": "Joshua Thompson",
         "sitebrief": "Game Development Portfolio",
         "sitepages":[
@@ -29,37 +29,37 @@
         "sitesocials":[
             {
                 "type" : "Email",
-                "icon": "..\\www\\icon_email.PNG?",
+                "icon": "images\\icon_email.PNG?",
                 "link": "mailto://jthompso536@gmail.com"                
             },
             {
                 "type" : "linkedIn",
-                "icon": "..\\www\\icon_linkedin.PNG?",
+                "icon": "images\\icon_linkedin.PNG?",
                 "link": "https://www.linkedin.com/in/joshua-thompson-088a9b223"                
             },
             {
                 "type" : "Steam",
-                "icon": "..\\www\\icon_steam.PNG?",
+                "icon": "images\\icon_steam.PNG?",
                 "link": "https://store.steampowered.com/search/?developer=Josh Games"                
             },
             {
                 "type" : "Itch.io",
-                "icon": "..\\www\\icon_itchio.PNG?",
+                "icon": "images\\icon_itchio.PNG?",
                 "link": "https://itch.io/profile/joshtgames"                
             },
             {
                 "type" : "Twitch",
-                "icon": "..\\www\\icon_twitch.PNG?",
+                "icon": "images\\icon_twitch.PNG?",
                 "link": "https://www.twitch.tv/noirfhoenix"                
             },
             {
                 "type" : "Youtube",
-                "icon": "..\\www\\icon_youtube.PNG?",
+                "icon": "images\\icon_youtube.PNG?",
                 "link": "https://youtube.com/noirphoenix"                
             },
             {
                 "type" : "Instagram",
-                "icon": "..\\www\\icon_instagram.PNG?",
+                "icon": "images\\icon_instagram.PNG?",
                 "link": "https://www.instagram.com/joshgam3s"                
             }
         ]
