@@ -11,8 +11,7 @@ function generateMain(data){
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href=${data.favicon}>
-        <script src=${data.fontawesomekit} crossorigin="anonymous"></script>               
+        <link rel="icon" href=${data.favicon}>                  
     `;
 
     element = document.getElementById("title");
@@ -63,7 +62,15 @@ function generateHeader(data){
                 </ul>
             </div>
         <nav> 
-    `;      
+    `;     
+    
+    const menu = document.querySelector('#mobile-menu')
+    const menuLinks = document.querySelector('.navbar-menu')
+
+    menu.addEventListener('click', function(){
+        menu.classList.toggle('is-active');
+        menuLinks.classList.toggle('active');
+    });    
 }
 
 // generates a html footer from json
