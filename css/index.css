@@ -5,7 +5,7 @@
     font-family: '', sans-serif;
 }
 
-#main-content-skills-title {
+#main-content-title {
     display: flex;
     font-size: 2rem;    
     text-align: center; 
@@ -14,7 +14,7 @@
     position: sticky;
     margin: 1% 10%;   
     
-    color: #ffffff;    
+    color: #a30909;    
 }
 
 #skills {
@@ -25,7 +25,8 @@
     position: sticky;        
 }
 
-#skill-slot {      
+#margin-slot {      
+    text-align: center;
     margin: 1% 2%;       
 }
 
@@ -34,9 +35,32 @@
     color: #ffffff;  
 }
 
+#aboutme {
+    display: flex;         
+    justify-content: center;
+    align-items: top;
+    position: sticky;  
+    text-align: center;
+    margin: 0% 25%;    
+}
+
+#aboutmetwo {
+    display: block;         
+    justify-content: center;
+    align-items: top;
+    position: sticky;  
+    text-align: center;
+    margin: 0% 25%;    
+}
+
+#aboutme-text{    
+    font-size: 1rem;
+    color: #ffffff;  
+}
+
 /* THIS SECTION IS FOR WHEN CONTENT DOES NOT FIT ON SCREEN E.G. Mobile */
 @media screen and (max-width: 960px) {
-    #main-content-skills-title {
+    #main-content-title {
         display: flex;
         font-size: 2rem;    
         text-align: center; 
@@ -44,7 +68,7 @@
         align-items: center;
         position: sticky;
         margin: 1% 10%;           
-        color: #ffffff;    
+        color: #a30909;      
     }
     
     #skills {
@@ -62,6 +86,29 @@
     
     #skill-duration-label{
         font-size: 1rem;
+        color: #ffffff;  
+    }
+
+    #aboutme {
+        display: flex;         
+        justify-content: center;
+        align-items: top;
+        position: sticky;  
+        text-align: center;
+        margin: 0% 25%;    
+    }
+    
+    #aboutmetwo {
+        display: block;         
+        justify-content: center;
+        align-items: top;
+        position: sticky;  
+        text-align: center;
+        margin: 0% 25%;    
+    }
+    
+    #aboutme-text{    
+        font-size: .4rem;
         color: #ffffff;  
     }
 }
