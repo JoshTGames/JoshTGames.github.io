@@ -23,12 +23,12 @@ async function parseSkillsInfo(json){
     `;     
 }
 
-// Gets the skills i have inputted into the json file
+// Gets the aboutme text i have inputted into the json file
 let aboutme = fetch('./templates/aboutme.json')   
     .then(response => response.json())
     .then(json => parseAboutInfo(json));
 
-// Parse the skills information into JS
+// Parse the about me text into JS
 async function parseAboutInfo(json){
     let about = json.AboutMe;
     let aboutObjs = "";
@@ -57,4 +57,33 @@ async function parseAboutInfo(json){
 
     element = document.getElementById("aboutmetwo");
     element.innerHTML = `${extraInfoObjs}`
+}
+
+// Gets the projects i have inputted into the json file
+let projects = fetch('./templates/projects.json')   
+    .then(response => response.json())
+    .then(json => parseProjectsInfo(json));
+
+// Parse the projects information into JS
+async function parseProjectsInfo(json){
+    let projects = json.Projects;    
+    let projectObjs = "";
+
+    for(let i = 0; i < projects.length; i++){
+        projectObjs += `
+        <div id="projects-card">
+            <div id="projects-img">
+                <img src=${projects[i].icon}>
+            </div>
+            <div id="projects-title">${projects[i].name}</div>
+        </div>
+        `;
+    }
+    
+    element = document.getElementById("main-content-highlights");
+    element.innerHTML += `
+        <div id="projects-container">
+            ${projectObjs}
+        </div>          
+    `;     
 }

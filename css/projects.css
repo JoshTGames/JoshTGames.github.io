@@ -1,0 +1,78 @@
+* {    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: '', sans-serif;
+}
+
+#projects-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+#projects-card{
+    background: #303030;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    border-radius: .2rem;
+    margin: 0px 30px;
+}
+
+#projects-card #projects-img img{
+    height: 100%;
+    width: 100%;
+}
+
+#projects-title{
+    display: flex;
+    background: rgba(0, 0, 0, .75);
+    color: #ffffff;
+    font-size: 1.5rem;
+    position: absolute; 
+    
+    width: 250px;
+    height: 50px;    
+   
+    justify-content: center;
+    align-items: center;    
+    margin-top: 200px;
+}
+
+#projects-card:hover{
+    opacity: .75;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+
+/* THIS SECTION IS FOR WHEN CONTENT DOES NOT FIT ON SCREEN E.G. Mobile */
+@media screen and (max-width: 960px) {
+    #projects-card{
+        background: #303030;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        align-items: center;    
+        justify-content: center;
+        border-radius: .2rem;
+        margin: 0px 10px;
+    }
+
+    #projects-title{
+        display: flex;
+        background: rgba(0, 0, 0, .75);
+        color: #ffffff;
+        font-size: .75rem;
+        position: absolute; 
+        
+        width: 100px;
+        height: 25px;    
+       
+        justify-content: center;
+        align-items: center;    
+        margin-top: 75px;
+    }
+}
