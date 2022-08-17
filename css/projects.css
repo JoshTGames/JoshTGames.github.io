@@ -43,7 +43,8 @@
 }
 
 #projects-card:hover{
-    opacity: .75;
+    background: #202020;
+    opacity: .5;
     cursor: pointer;
     transition: all 0.1s ease;
 }

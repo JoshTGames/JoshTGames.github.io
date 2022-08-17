@@ -1,6 +1,7 @@
 {
     "Projects": [
-        {
+        {   
+            "ishighlighted": true,
             "name": "Cowboys n' Stuff",
             "page": "/",
             "icon": "images\\projects\\CowboysNStuff.png?",
@@ -12,18 +13,20 @@
             }
         },
         {
-            "name": "Test",
+            "ishighlighted": true,
+            "name": "Test1",
             "page": "/",
             "icon": "",
             "description": "",
             "tags": []
         },
         {
-            "name": "Test",
+            "ishighlighted": true,
+            "name": "Test2",
             "page": "/",
             "icon": "",
             "description": "",
             "tags": []
-        }
+        }        
     ]   
 }

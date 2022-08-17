@@ -68,15 +68,19 @@ let projects = fetch('./templates/projects.json')
 async function parseProjectsInfo(json){
     let projects = json.Projects;    
     let projectObjs = "";
-
+    
     for(let i = 0; i < projects.length; i++){
+        if(!projects[i].ishighlighted){ continue; }
+        
         projectObjs += `
-        <div id="projects-card">
-            <div id="projects-img">
-                <img src=${projects[i].icon}>
+        <a href= ${projects[i].page}>
+            <div id="projects-card">
+                <div id="projects-img">
+                    <img src=${projects[i].icon}>
+                </div>
+                <div id="projects-title">${projects[i].name}</div>
             </div>
-            <div id="projects-title">${projects[i].name}</div>
-        </div>
+        </a>
         `;
     }
     
