@@ -93,9 +93,32 @@
         font-size: 1rem;
         color: #ffffff;  
     }
+
+    #aboutme {
+        display: flex;         
+        justify-content: center;
+        align-items: top;
+        position: sticky;  
+        text-align: center;
+        margin: 0% 10%;    
+    }
+    
+    #aboutmetwo {
+        display: block;         
+        justify-content: center;
+        align-items: top;
+        position: sticky;  
+        text-align: center;
+        margin: 0% 10%;    
+    }
    
     #aboutme-text{    
-        font-size: .4rem;
+        font-size: .65rem;
         color: #ffffff;    
+    }
+
+    #margin-slot {      
+        text-align: center;
+        margin: 3% 1%;       
     }
 }
