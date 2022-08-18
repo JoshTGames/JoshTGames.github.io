@@ -22,8 +22,8 @@
                 "redirect": "/links.html"
             },
             {
-                "pagename": "Plead",
-                "redirect": "/games/Plead/pleadtest.html"
+                "pagename": "CNS3D",
+                "redirect": "/games/CNS3DTest/CNS3DTest.html"
             }
         ]
     },
