@@ -20,6 +20,10 @@
             {
                 "pagename": "Links",
                 "redirect": "/links.html"
+            },
+            {
+                "pagename": "Plead",
+                "redirect": "/games/Plead/pleadtest.html"
             }
         ]
     },
