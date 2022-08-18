@@ -40,7 +40,7 @@
             {
                 "type" : "Steam",
                 "icon": "images\\socials\\icon_steam.png?",
-                "link": "https://store.steampowered.com/search/?developer=Josh Games"                
+                "link": "https://store.steampowered.com/search/?developer=Josh%20Games"                
             },
             {
                 "type" : "Itch.io",
