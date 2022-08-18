@@ -1,11 +1,11 @@
 {
     "Main": {
-        "favicon": "images\\favicon.ico?",
+        "favicon": "\\images\\favicon.ico?",
         "title": "JoshGames || "        
     },
 
     "Header": {
-        "siteicon": "images\\icon_site.PNG?",
+        "siteicon": "\\images\\icon_site.PNG?",
         "sitetitle": "Joshua Thompson",
         "sitebrief": "Game Development Portfolio",
         "sitepages":[
@@ -33,42 +33,42 @@
         "sitesocials":[
             {
                 "type" : "Email",
-                "icon": "images\\socials\\icon_email.png?",
+                "icon": "\\images\\socials\\icon_email.png?",
                 "link": "mailto://jthompso536@gmail.com"                
             },
             {
                 "type" : "linkedIn",
-                "icon": "images\\socials\\icon_linkedin.png?",
+                "icon": "\\images\\socials\\icon_linkedin.png?",
                 "link": "https://www.linkedin.com/in/joshua-thompson-088a9b223"                
             },
             {
                 "type" : "Steam",
-                "icon": "images\\socials\\icon_steam.png?",
+                "icon": "\\images\\socials\\icon_steam.png?",
                 "link": "https://store.steampowered.com/search/?developer=Josh%20Games"                
             },
             {
                 "type" : "Itch.io",
-                "icon": "images\\socials\\icon_itchio.png?",
+                "icon": "\\images\\socials\\icon_itchio.png?",
                 "link": "https://itch.io/profile/joshtgames"                
             },
             {
                 "type" : "Twitch",
-                "icon": "images\\socials\\icon_twitch.png?",
+                "icon": "\\images\\socials\\icon_twitch.png?",
                 "link": "https://www.twitch.tv/noirfhoenix"                
             },
             {
                 "type" : "Youtube",
-                "icon": "images\\socials\\icon_youtube.png?",
+                "icon": "\\images\\socials\\icon_youtube.png?",
                 "link": "https://www.youtube.com/channel/UCBj3Tk92JAV8sYzKatCZfow"                
             },
             {
                 "type" : "Instagram",
-                "icon": "images\\socials\\icon_instagram.png?",
+                "icon": "\\images\\socials\\icon_instagram.png?",
                 "link": "https://www.instagram.com/joshgam3s"                
             },
             {
                 "type" : "Twitter",
-                "icon": "images\\socials\\icon_twitter.png?",
+                "icon": "\\images\\socials\\icon_twitter.png?",
                 "link": "https://twitter.com/JoshTGames"                
             }
         ]

@@ -1,5 +1,5 @@
 // Gets all the data corrosponding to the master-page
-let masterpage = fetch('./templates/masterpage.json')   
+let masterpage = fetch('/templates/masterpage.json')   
     .then(response => response.json())
     .then(json => parsePageInfo(json));
 
