@@ -28,12 +28,29 @@ let aboutme = fetch('./templates/aboutme.json')
     .then(response => response.json())
     .then(json => parseAboutInfo(json));
 
+function calculateAge(date){
+    let difference = Date.now() - date.getTime();
+    let age = new Date(difference);
+
+    return Math.abs(age.getUTCFullYear() - 1970)    
+}
+
 // Parse the about me text into JS
 async function parseAboutInfo(json){
     let about = json.AboutMe;
-    let aboutObjs = "";
+    let aboutObjs = "";    
 
+    let dob = json.Settings.DOB;
+    let age = calculateAge(new Date(dob.Year, dob.Month, dob.Day))
+    
     for(let i = 0; i < about.length; i++){
+        let msgArray = about[i].split(" ");
+        let ageIndex = msgArray.indexOf("${age}");
+        if(ageIndex >0){
+            msgArray[ageIndex] = age;
+            about[i] = msgArray.join(" ");
+        }
+
         aboutObjs += `
             <div id="margin-slot">                
                 <p id="aboutme-text">${about[i]}</p>

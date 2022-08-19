@@ -1,6 +1,13 @@
 {
+    "Settings":{
+        "DOB": {
+            "Day": "17",
+            "Month": "1",
+            "Year": "2002"
+        }
+    },
     "AboutMe": [
-        "Hey, I'm Joshua Thompson from Cornwall UK. I'm 20 years old and currently studying Game Development: Programming at Falmouth University. -- Studying in 3rd Year.",
+        "Hey, I'm Joshua Thompson from Cornwall UK. I'm ${age} years old and currently studying Game Development: Programming at Falmouth University. -- Studying in 3rd Year.",
         "I've been programming ever since I started secondary school in year 7. Due to my passion for programming, I chose to take on GCSE and A-Level Computer Science & IT."
     ],
     "AboutMeTwo": [
