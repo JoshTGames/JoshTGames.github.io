@@ -17,7 +17,7 @@
             "name": "Gruttel Scuttle",
             "page": "/",
             "icon": "images\\projects\\GruttelGame.png?",
-            "description": "",
+            "description": "Gruttel Scuttle is a fast-paced strategy management game, proudly produced by Trojan Mouse, a dedicated team of second-year game development students.",
             "tags": {
                 "engine": "Unity",
                 "language": "C#",
@@ -29,7 +29,7 @@
             "name": "3D PCG Animation",
             "page": "/",
             "icon": "images\\projects\\CNS3D.png?",
-            "description": "",
+            "description": "Procedural animation is a great way to dynamically position character joints without spending lots of time creating animation trees. In this case, I use PCG animation to make dynamic walk cycles.",
             "tags": {
                 "engine": "Unity",
                 "language": "C#",
