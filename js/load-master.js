@@ -23,12 +23,7 @@ function generateHeader(data){
     // Gets the header ID from html files
     element = document.getElementById("header");    
     element.innerHTML = `
-        <link rel="stylesheet" href="/css/header.css">
-        <style>
-            img {
-            border-radius: 8px;
-            }        
-        </style>
+        <link rel="stylesheet" href="/css/header.css">        
     `;
     // Iterates through each page and appends it onto the html element
     let buttons = "";

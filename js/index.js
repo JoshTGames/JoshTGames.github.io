@@ -85,7 +85,8 @@ async function parseProjectsInfo(json){
                 <div id="projects-img">
                     <img src=${projects[i].icon}>
                 </div>
-                <div id="projects-title">${projects[i].name}</div>                
+                <div id="projects-title">${projects[i].name}</div>
+                <div id="projects-description">${projects[i].description}</div>                     
             </div>
             
         </a>

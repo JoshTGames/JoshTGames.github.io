@@ -21,11 +21,18 @@
     justify-content: center;
     border-radius: .2rem;
     margin: 0px 30px;
+    transition: .2s;
 }
 
 #projects-card #projects-img img{
     height: 100%;
     width: 100%;
+    border-radius: .2rem;    
+}
+
+#projects-img{    
+    margin-top: 4px;
+    text-align: center;
 }
 
 #projects-title{
@@ -40,7 +47,26 @@
    
     justify-content: center;
     align-items: center;    
-    margin-top: 200px;    
+    margin-top: 200px;          
+}
+
+#projects-description{
+    display: flex;
+    background: rgba(22, 22, 22, 0.75);
+    color: #ffffff;
+    font-size: .85rem;
+    position: absolute; 
+    
+    width: 250px;
+    height: 250px;    
+    
+    text-align: center;
+    justify-content: center;
+    align-items: center;       
+
+    opacity: 0;    
+    visibility: hidden;    
+    padding: 20px 20px;
 }
 
 #tags{
@@ -49,7 +75,7 @@
     align-items: center;  
     text-align: center;
 
-    margin: 10px 85px;
+    margin: 30px 85px;
 }
 
 .tag{
@@ -73,11 +99,16 @@
 #tag-project-madeat{ background: rgb(70, 70, 250); }
 
 #projects-card:hover{
-    background: #202020;
-    opacity: .5;
     cursor: pointer;
-    transition: all 0.1s ease;    
+    transform: scale(1.1);     
 }
+
+#projects-card:hover #projects-description {         
+    opacity: 1;
+    visibility: visible;   
+}
+
+#projects-card:hover #projects-title{ opacity: 0; }
 
 /* THIS SECTION IS FOR WHEN CONTENT DOES NOT FIT ON SCREEN E.G. Mobile */
 @media screen and (max-width: 960px) {
@@ -98,8 +129,15 @@
         margin-top: 75px;
     }
 
+    #projects-description{        
+        font-size: .4rem;      
+        
+        width: 100px;
+        height: 100px;  
+    }
+
     #tags{        
-        margin: 0px 25px;
+        margin: 10px 25px;
     }
     
     .tag{        

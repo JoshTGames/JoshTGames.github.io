@@ -5,7 +5,7 @@
             "name": "Cowboys n' Stuff",
             "page": "/",
             "icon": "images\\projects\\CowboysNStuff.png?",
-            "description": "",
+            "description": "Cowboys n' Stuff is a 2D, Top-down, wave-survival orientated game where you control and customise your cowboy in order to eliminate threats as they arrive; whether it is day or night...",
             "tags": {
                 "engine": "Unity",
                 "language": "C#",

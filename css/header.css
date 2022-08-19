@@ -70,8 +70,10 @@
     text-decoration: none;
     font-size: 2rem;   
     border-collapse: separate;
-    border-radius: 8px;
+    
 }
+
+#navbar-logo img{ border-radius: 8px; }
 
 .navbar-menu {
     display: flex;
