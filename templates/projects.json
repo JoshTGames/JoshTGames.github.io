@@ -27,7 +27,7 @@
         {
             "ishighlighted": true,
             "name": "3D PCG Animation",
-            "page": "/",
+            "page": "/projectsites/PCGAnimation/CNS3D/CowboysNStuff3D.html",
             "icon": "images\\projects\\CNS3D.png?",
             "description": "Procedural animation is a great way to dynamically position character joints without spending lots of time creating animation trees. In this case, I use PCG animation to make dynamic walk cycles.",
             "tags": {
