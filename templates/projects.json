@@ -9,24 +9,32 @@
             "tags": {
                 "engine": "Unity",
                 "language": "C#",
-                "made-at": "Home"
+                "madeat": "Home"
             }
         },
         {
             "ishighlighted": true,
-            "name": "Test1",
+            "name": "Gruttel Scuttle",
             "page": "/",
-            "icon": "",
+            "icon": "images\\projects\\GruttelGame.png?",
             "description": "",
-            "tags": []
+            "tags": {
+                "engine": "Unity",
+                "language": "C#",
+                "madeat": "Uni"
+            }
         },
         {
             "ishighlighted": true,
-            "name": "Test2",
+            "name": "3D PCG Animation",
             "page": "/",
-            "icon": "",
+            "icon": "images\\projects\\CNS3D.png?",
             "description": "",
-            "tags": []
+            "tags": {
+                "engine": "Unity",
+                "language": "C#",
+                "madeat": "Home"
+            }
         }        
     ]   
 }

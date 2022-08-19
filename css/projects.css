@@ -39,41 +39,67 @@
    
     justify-content: center;
     align-items: center;    
-    margin-top: 200px;
+    margin-top: 200px;    
 }
+
+#tags{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    text-align: center;
+
+    margin: 10px 85px;
+}
+
+.tag{
+    display: flex;    
+    color: #ffffff;
+    text-decoration: none;    
+    border-radius: 1rem;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    width: 40px;
+    height: 20px;  
+
+    font-size: .75rem;
+}
+
+#tag-project-engine{ background: #d14242;; }
+#tag-project-language{ background: rgb(73, 173, 73); }
+#tag-project-madeat{ background: rgb(70, 70, 250); }
 
 #projects-card:hover{
     background: #202020;
     opacity: .5;
     cursor: pointer;
-    transition: all 0.1s ease;
+    transition: all 0.1s ease;    
 }
 
 /* THIS SECTION IS FOR WHEN CONTENT DOES NOT FIT ON SCREEN E.G. Mobile */
 @media screen and (max-width: 960px) {
-    #projects-card{
-        background: #303030;
+    #projects-card{        
         width: 100px;
-        height: 100px;
-        display: flex;
-        align-items: center;    
-        justify-content: center;
-        border-radius: .2rem;
+        height: 100px;     
         margin: 0px 10px;
     }
 
-    #projects-title{
-        display: flex;
-        background: rgba(0, 0, 0, .75);
-        color: #ffffff;
-        font-size: .75rem;
-        position: absolute; 
-        
+    #projects-title{                
+        font-size: .7rem;  
         width: 100px;
-        height: 25px;    
-       
-        justify-content: center;
-        align-items: center;    
+        height: 25px;       
         margin-top: 75px;
+    }
+
+    #tags{        
+        margin: 0px 25px;
+    }
+    
+    .tag{        
+        width: 20px;
+        height: 10px;      
+        font-size: .4rem;
     }
 }

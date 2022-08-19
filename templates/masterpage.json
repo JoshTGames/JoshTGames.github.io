@@ -20,11 +20,7 @@
             {
                 "pagename": "Links",
                 "redirect": "/links.html"
-            },
-            {
-                "pagename": "CNS3D",
-                "redirect": "/games/CNS3DTest/CNS3DTest.html"
-            }
+            }            
         ]
     },
 

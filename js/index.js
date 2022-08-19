@@ -72,15 +72,25 @@ async function parseProjectsInfo(json){
     for(let i = 0; i < projects.length; i++){
         if(!projects[i].ishighlighted){ continue; }
         
+        let tags = `
+            <p class="tag" id="tag-project-engine">${projects[i].tags.engine}</p>
+            <p class="tag" id="tag-project-language">${projects[i].tags.language}</p>
+            <p class="tag" id="tag-project-madeat">${projects[i].tags.madeat}</p>
+        `;
+
         projectObjs += `
+        <div id="projects-content">
         <a href= ${projects[i].page}>
             <div id="projects-card">
                 <div id="projects-img">
                     <img src=${projects[i].icon}>
                 </div>
-                <div id="projects-title">${projects[i].name}</div>
+                <div id="projects-title">${projects[i].name}</div>                
             </div>
+            
         </a>
+        <div id="tags">${tags}</div>
+        </div>
         `;
     }
     
