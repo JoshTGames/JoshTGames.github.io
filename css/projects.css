@@ -5,11 +5,31 @@
     font-family: '', sans-serif;
 }
 
+#main-content-title {
+    display: flex;
+    font-size: 2rem;    
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    margin: 1% 10%;   
+    
+    color: #a30909;    
+}
+
 #projects-container{
     display: flex;
     align-items: center;
     justify-content: center;  
     margin:30px 0px;;
+}
+
+#projects-container-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: center;  
+    margin: 30px 450px;    
 }
 
 #projects-card{
@@ -112,9 +132,19 @@
 
 /* THIS SECTION IS FOR WHEN CONTENT DOES NOT FIT ON SCREEN E.G. Mobile */
 @media screen and (max-width: 960px) {
-    #projects-container{        
-        margin:15px 0px;;
+    #main-content-title {
+        display: flex;
+        font-size: 2rem;    
+        text-align: center; 
+        justify-content: center;
+        align-items: center;
+        position: sticky;
+        margin: 1% 10%;           
+        color: #a30909;      
     }
+
+    #projects-container{ margin: 15px 0px; }
+    #projects-container-grid{ margin: 15px auto; }
 
     #projects-card{        
         width: 100px;
