@@ -30,42 +30,72 @@
             {
                 "type" : "Email",
                 "icon": "\\images\\socials\\icon_email.png?",
-                "link": "mailto://jthompso536@gmail.com"                
+                "link": "mailto://jthompso536@gmail.com",     
+                "socialtype": "Contact Me",
+                "showinfooter": true           
             },
             {
-                "type" : "linkedIn",
+                "type" : "LinkedIn",
                 "icon": "\\images\\socials\\icon_linkedin.png?",
-                "link": "https://www.linkedin.com/in/joshua-thompson-088a9b223"                
+                "link": "https://www.linkedin.com/in/joshua-thompson-088a9b223",     
+                "socialtype": "Contact Me",
+                "showinfooter": true           
             },
             {
                 "type" : "Steam",
                 "icon": "\\images\\socials\\icon_steam.png?",
-                "link": "https://store.steampowered.com/search/?developer=Josh%20Games"                
+                "link": "https://store.steampowered.com/search/?developer=Josh%20Games",     
+                "socialtype": "Portfolio",
+                "showinfooter": false                    
             },
             {
                 "type" : "Itch.io",
                 "icon": "\\images\\socials\\icon_itchio.png?",
-                "link": "https://itch.io/profile/joshtgames"                
+                "link": "https://itch.io/profile/joshtgames",     
+                "socialtype": "Portfolio",
+                "showinfooter": false                    
+            },
+            {
+                "type" : "Github",
+                "icon": "\\images\\socials\\icon_github.png?",
+                "link": "https://github.com/joshtgames",     
+                "socialtype": "Portfolio",
+                "showinfooter": true                    
             },
             {
                 "type" : "Twitch",
                 "icon": "\\images\\socials\\icon_twitch.png?",
-                "link": "https://www.twitch.tv/noirfhoenix"                
+                "link": "https://www.twitch.tv/noirfhoenix",     
+                "socialtype": "Other Socials",
+                "showinfooter": false                    
             },
             {
                 "type" : "Youtube",
                 "icon": "\\images\\socials\\icon_youtube.png?",
-                "link": "https://www.youtube.com/channel/UCBj3Tk92JAV8sYzKatCZfow"                
+                "link": "https://www.youtube.com/channel/UCBj3Tk92JAV8sYzKatCZfow",     
+                "socialtype": "Other Socials",
+                "showinfooter": true                    
             },
             {
                 "type" : "Instagram",
                 "icon": "\\images\\socials\\icon_instagram.png?",
-                "link": "https://www.instagram.com/joshgam3s"                
+                "link": "https://www.instagram.com/joshgam3s",     
+                "socialtype": "Other Socials",
+                "showinfooter": true                    
             },
             {
                 "type" : "Twitter",
                 "icon": "\\images\\socials\\icon_twitter.png?",
-                "link": "https://twitter.com/JoshTGames"                
+                "link": "https://twitter.com/JoshTGames",     
+                "socialtype": "Contact Me",
+                "showinfooter": true                    
+            },
+            {
+                "type" : "Discord",
+                "icon": "\\images\\socials\\icon_discord.png?",
+                "link": "https://discord.gg/8QDsAVX4y7",     
+                "socialtype": "Contact Me",
+                "showinfooter": false                    
             }
         ]
     }

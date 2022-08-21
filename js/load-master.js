@@ -72,8 +72,9 @@ function generateHeader(data){
 function generateFooter(data){   
     let buttons = "";
     for(let i = 0; i < data.sitesocials.length; i++){
+        if(!data.sitesocials[i].showinfooter){ continue; }
         buttons += `
-            <a href=${data.sitesocials[i].link} id="social-button"><img src = ${data.sitesocials[i].icon} alt=${data.sitesocials[i].type} width=32" height="32"></a>
+            <a href=${data.sitesocials[i].link} target="_blank" rel="noopener noreferrer" id="social-button"><img src = ${data.sitesocials[i].icon} alt=${data.sitesocials[i].type} width=32" height="32"></a>
         `;
     };
 
