@@ -1,0 +1,157 @@
+* {    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: '', sans-serif;
+}
+
+#main-content-title {
+    display: flex;
+    font-size: 2rem;    
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    margin: 1% 10%;   
+    
+    color: #a30909;    
+}
+
+#section-heading {
+    display: flex;
+    font-size: 1.5rem;    
+    text-align: center; 
+    justify-content: center;
+    align-items: center;    
+    margin: 1% 0%;   
+    position: sticky;
+
+    color: #d66464;    
+}
+
+#overview{ 
+    margin: 1% 0%; 
+    max-width: 50%;
+}
+
+#last-updated-label{
+    display: flex;
+    font-size: 1rem;    
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    color: #863838;   
+}
+
+.project-interactive{
+    display: table;    
+    margin: 0px auto; 
+    
+    width: 854;
+    height: 480;
+}
+
+.main-footer{
+    display: table;    
+    margin: 0px auto; 
+}
+
+#main-header-content{
+    display: flex;    
+    margin: 0px auto;
+    justify-content: center;
+}
+
+#projects-container + #overview{ width: 100%; }
+
+
+.main-hero{    
+    margin: 0px auto;
+    max-width: 60%;
+    padding-bottom: 2%;
+}
+
+p{
+    color: white;
+    text-align: left;   
+    padding-bottom: 1%; 
+}
+
+li{ color: white; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#projects-container{
+    display: table;
+    align-items: center;
+    justify-content: center;       
+}
+
+#projects-card{
+    background: #303030;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    border-radius: .2rem;
+    border: 5px solid black;
+    box-shadow: 7px 7px 15px #000000;
+    margin: 0px 30px;
+    transition: .2s;
+}
+
+#projects-card #projects-img img{
+    height: 100%;
+    width: 100%;
+    border-radius: .2rem;    
+}
+
+#projects-img{    
+    margin-top: 4px;
+    text-align: center;
+}
+
+#tags{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    text-align: center;
+
+    margin: 30px 85px;
+}
+
+.tag{
+    display: flex;    
+    color: #ffffff;
+    text-decoration: none;    
+    border-radius: 1rem;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    width: 40px;
+    height: 20px;  
+
+    font-size: .75rem;
+}
+
+#tag-project-engine{ background: #d14242;; }
+#tag-project-language{ background: rgb(73, 173, 73); }
+#tag-project-madeat{ background: rgb(70, 70, 250); }

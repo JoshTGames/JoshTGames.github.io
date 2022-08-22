@@ -3,7 +3,7 @@
         {   
             "ishighlighted": true,
             "name": "Cowboys n' Stuff",
-            "page": "/",
+            "page": "/projectsites/CNS1/cowboys_n_stuff.html",
             "icon": "images\\projects\\CowboysNStuff.png?",
             "description": "Cowboys n' Stuff is a 2D, Top-down, wave-survival orientated game where you control and customise your cowboy in order to eliminate threats as they arrive; whether it is day or night...",
             "tags": {
@@ -27,7 +27,7 @@
         {
             "ishighlighted": true,
             "name": "3D PCG Animation",
-            "page": "/projectsites/PCGAnimation/CNS3D/CowboysNStuff3D.html",
+            "page": "/projectsites/PCGAnimation/3DPCGAnimation.html",
             "icon": "images\\projects\\CNS3D.png?",
             "description": "Procedural animation is a great way to dynamically position character joints without spending lots of time creating animation trees. In this case, I use PCG animation to make dynamic walk cycles.",
             "tags": {
