@@ -21,24 +21,9 @@
             "duration" : "5 Years+"
         },
         {
-            "technology" : "Trello",
-            "icon" : "images\\skills\\icon_trello.png?",
-            "duration" : "2 Years+"
-        },
-        {
-            "technology" : "HTML",
-            "icon" : "images\\skills\\icon_html.png?",
-            "duration" : "2 Years+"
-        },
-        {
             "technology" : "Javascript",
             "icon" : "images\\skills\\icon_javascript.png?",
             "duration" : "2 Years+"
-        },
-        {
-            "technology" : "CSS",
-            "icon" : "images\\skills\\icon_css.png?",
-            "duration" : "<1 Year"
         },
         {
             "technology" : "Lua",
