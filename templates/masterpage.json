@@ -20,6 +20,10 @@
             {
                 "pagename": "Links",
                 "redirect": "/links.html"
+            },
+            {
+                "pagename": "CV",
+                "redirect": "/downloads/Joshua_Thompson_CV.pdf"
             }            
         ]
     },
