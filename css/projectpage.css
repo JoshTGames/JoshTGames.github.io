@@ -5,6 +5,11 @@
     font-family: '', sans-serif;
 }
 
+#embedURL{
+    text-decoration: none;
+    color: #ff6b6b;
+}
+
 #main-content-title {
     display: flex;
     font-size: 2rem;    
