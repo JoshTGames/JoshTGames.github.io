@@ -5,7 +5,7 @@
     },
 
     "Header": {
-        "siteicon": "\\images\\icon_site.PNG?",
+        "siteicon": "\\images\\icon_site.png?",
         "sitetitle": "Joshua Thompson",
         "sitebrief": "Game Development Portfolio",
         "sitepages":[
