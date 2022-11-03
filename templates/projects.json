@@ -59,6 +59,18 @@
                 "language": "C#",
                 "madeat": "Uni"
             }
-        }  
+        },
+        {
+            "ishighlighted": false,
+            "name": "Comp250 GOAP AI",
+            "page": "/projectsites/Comp250/GoapAI-BurgerAssembly.html",
+            "icon": "images\\projects\\GoapAI.png?",
+            "description": "This is a Uni module where programming students were tasked to create some sort of complex AI algorithm.",
+            "tags": {
+                "engine": "Unity",
+                "language": "C#",
+                "madeat": "Uni"
+            }
+        } 
     ]   
 }
