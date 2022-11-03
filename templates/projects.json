@@ -25,7 +25,7 @@
             }
         },
         {
-            "ishighlighted": true,
+            "ishighlighted": false,
             "name": "3D PCG Animation",
             "page": "/projectsites/PCGAnimation/3DPCGAnimation.html",
             "icon": "images\\projects\\CNS3D.png?",
@@ -47,7 +47,18 @@
                 "language": "C#",
                 "madeat": "Uni"
             }
-        }          
-
+        },          
+        {
+            "ishighlighted": true,
+            "name": "Gam340 AI Project",
+            "page": "/projectsites/Gam340/AIProject.html",
+            "icon": "images\\projects\\AIProject.png?",
+            "description": "This is a Uni module where all students were tasked to create a strong artifact to place on our portfolio sites.",
+            "tags": {
+                "engine": "Unity",
+                "language": "C#",
+                "madeat": "Uni"
+            }
+        }  
     ]   
 }
