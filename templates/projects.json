@@ -35,6 +35,19 @@
                 "language": "C#",
                 "madeat": "Home"
             }
-        }        
+        },
+        {
+            "ishighlighted": false,
+            "name": "Comp280 TankGame",
+            "page": "/projectsites/Comp280/TankGame.html",
+            "icon": "images\\projects\\TankGame.png?",
+            "description": "This is a Uni module where programming students were tasked to create a \"Prototype Game\" which had 3 components in it (AI, Networking and UI)",
+            "tags": {
+                "engine": "Unity",
+                "language": "C#",
+                "madeat": "Uni"
+            }
+        }          
+
     ]   
 }

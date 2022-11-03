@@ -2,10 +2,7 @@
 <html lang="en">
     <head id="head">        
         <title id="title">3D Procedural Animation</title>
-        <link rel="stylesheet" href="/css/projectpage.css">    
-        <script src="TemplateData/UnityProgress.js"></script>
-        <script src="Build/UnityLoader.js"></script>
-        <script> var unityInstance = UnityLoader.instantiate("unityContainer", "Build/CNS3DTest.json", {onProgress: UnityProgress}); </script>
+        <link rel="stylesheet" href="/css/projectpage.css">  
     </head>
     <body bgcolor="#1A1A1A">
         <!-- HEADER -->
@@ -16,12 +13,12 @@
         <div class="main-container">
             <div class="main-header">
                 <h1 id="main-content-title">3D Procedural Animation</h1> 
-                <div id="last-updated-label">Last updated: 14/10/2022</div>
+                <div id="last-updated-label">Last updated:  03/11/2022</div>
 
                 <div id="main-header-content">
                     <div id="projects-container">
                         <div id="projects-card">
-                            <div id="projects-img"> <img src="/images/projects/CNS3D.png" alt="Cowboys n' Stuff Logo"}> </div>  
+                            <div id="projects-img"> <img src="/images/projects/CNS3D.png?" alt="Cowboys n' Stuff Logo"}> </div>  
                         </div>
                         <div id="tags">
                             <p class="tag" id="tag-project-engine">Unity</p>
@@ -32,7 +29,7 @@
                     
                     <div id="overview">
                         <h2 id="section-heading">Overview</h2>                         
-                        <p>Procedural Animation is simply animation handled in real-time by code rather than baked by an animator. There are multiple ways of implementing Procedural Animation, but in this case this example I made is 100% procedural (No baked animations)</p>                        
+                        <p>Procedural Animation is animation but it is processed in real-time by code rather than being baked by an animator. There are multiple ways of implementing Procedural Animation, but in this case this example I made is 100% procedural (No baked animations)</p>                        
                         <p></p>
                     </div>
                 </div>
@@ -44,7 +41,16 @@
                 <p>Thankfully, Procedural Animation is great for that because it allows for great flexibility with how an object visually moves, especially because it is calculated in real-time and not baked onto the model. This means that body-parts such as feet can be animated based on conditions such as, elevating/rotating the feet to the environment it is sitting on. Procedural Animation also means that we have full control over the speed/positioning and more of body-parts we may want to animate inside the engine which ultimately means we can create a believable animation for end-users very quickly.</p>
                 
             <div class="main-footer">                
-              <div class="project-interactive" id="unityContainer" style="width: 854px; height: 480px"></div>  
+                <div id="unity-container" class="unity-desktop">
+                    <canvas id="unity-canvas" width=854 height=480></canvas>
+                    <div id="unity-loading-bar">
+                      <div id="unity-logo"></div>
+                      <div id="unity-progress-bar-empty">
+                        <div id="unity-progress-bar-full"></div>
+                      </div>
+                    </div>
+                    <div id="unity-warning"> </div>                
+                </div>
             </div>
             
         </div>
@@ -55,5 +61,6 @@
         <!-- FOOTER END -->        
            
         <script type="text/javascript" src="/js/load-master.js"></script>    
+        <script type="application/javascript" src="/js/unity-loader.js"></script>  
     </body>
 </html>
