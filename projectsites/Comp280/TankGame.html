@@ -49,16 +49,7 @@
                 <p></p>
                 <p>Another mechanic which I am really proud of is that the map is actually procedural generated using a maze generation algorithm called "Recursive Backtracker". This algorithm works by choosing a random neighbour that has not yet been discovered and then move to that one and repeat until no neighbours can be found... Then backtrack to previous iterations until a neighbour can be found again. Doing this repeatedly will create a fully explorable maze which can be seen in the demo below!</p>
             <div class="main-footer">
-              <div id="unity-container" class="unity-desktop">
-                <canvas id="unity-canvas" width=854 height=480></canvas>
-                <div id="unity-loading-bar">
-                  <div id="unity-logo"></div>
-                  <div id="unity-progress-bar-empty">
-                    <div id="unity-progress-bar-full"></div>
-                  </div>
-                </div>
-                <div id="unity-warning"> </div>                
-              </div>
+              <div id="unity-container" class="unity-desktop"></div>
             </div>            
             <p></p>
             <p></p>
@@ -71,6 +62,7 @@
         <!-- FOOTER END -->        
            
         <script type="text/javascript" src="/js/load-master.js"></script>    
+        <script type="text/javascript" src="/js/projectpage.js"></script>
         <script type="application/javascript" src="/js/unity-loader.js"></script>    
     </body>
 </html>

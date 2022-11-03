@@ -70,7 +70,10 @@
 #unity-progress-bar-full { width: 0%; height: 18px; margin-top: 10px; background: url('progress-bar-full-dark.png') no-repeat center }
 #unity-footer { position: relative }
 .unity-mobile #unity-footer { display: none }
-#unity-warning { position: absolute; left: 50%; top: 5%; transform: translate(-50%); background: white; padding: 10px; display: none }
+#unity-warning {         
+    background: white;     
+    display: none; 
+}
 
 .project-video{
     display: flex;    
