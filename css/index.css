@@ -26,9 +26,23 @@
     transition: .2s;
 }
 
-#margin-slot {      
+#margin-slot {  
     text-align: center;
     margin: 2% 1%;       
+}
+
+#text {      
+    background-color: #141313;
+    box-sizing: border-box;
+    border-radius: 15%;   
+    border-width: 100rem;    
+    padding: 15px;  
+}
+
+#skill-label{
+    font-weight: 1000;
+    font-size: 1.1rem;
+    color: #ffffff;  
 }
 
 #skill-duration-label{
@@ -66,60 +80,17 @@
 
 /* THIS SECTION IS FOR WHEN CONTENT DOES NOT FIT ON SCREEN E.G. Mobile */
 @media screen and (max-width: 960px) {
-    #main-content-title {
-        display: flex;
-        font-size: 2rem;    
-        text-align: center; 
-        justify-content: center;
-        align-items: center;
-        position: sticky;
-        margin: 1% 10%;           
-        color: #a30909;      
-    }
+    #skills { transform: scale(.65,.65); }
     
-    #skills {
-        display: flex;
-        font-size: 2rem;        
-        justify-content: center;
-        align-items: center;
-        position: sticky;   
-        transform: scale(.4,.4);                          
-    }
-    
-    #skill-slot { 
-        margin: 0% 2%;   
-    }
-    
-    #skill-duration-label{
-        font-size: 1rem;
-        color: #ffffff;  
-    }
+    #skill-slot { margin: 0% 2%; }
 
-    #aboutme {
-        display: flex;         
-        justify-content: center;
-        align-items: top;
-        position: sticky;  
-        text-align: center;
-        margin: 0% 10%;    
-    }
+    #aboutme { margin: 0% 10%; }
     
-    #aboutmetwo {
-        display: block;         
-        justify-content: center;
-        align-items: top;
-        position: sticky;  
-        text-align: center;
-        margin: 0% 10%;    
-    }
+    #aboutmetwo { margin: 0% 10%; }
    
-    #aboutme-text{    
-        font-size: .65rem;
-        color: #ffffff;    
-    }
+    #aboutme-text{ font-size: .65rem; }
 
-    #margin-slot {      
-        text-align: center;
-        margin: 3% 1%;       
-    }
+    #margin-slot { margin: 3% 1%; }
+
+    #text { padding: 5px; }
 }

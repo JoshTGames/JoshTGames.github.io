@@ -12,6 +12,7 @@ async function parseSkillsInfo(json){
         skillObjs += `
             <div id="margin-slot">
                 <img src=${skills[i].icon} alt=${skills[i].technology} width="80" height="80">
+                <p id="skill-label">${skills[i].technology}</p>
                 <p id="skill-duration-label">${skills[i].duration}</p>
             </div>
         `;
@@ -52,8 +53,10 @@ async function parseAboutInfo(json){
         }
 
         aboutObjs += `
-            <div id="margin-slot">                
+            <div id="margin-slot">  
+                <div id ="text">              
                 <p id="aboutme-text">${about[i]}</p>
+                </div>
             </div>
         `;
     };
@@ -64,7 +67,9 @@ async function parseAboutInfo(json){
     for(let i = 0; i < extraInfo.length; i++){
         extraInfoObjs += `  
             <div id="margin-slot">   
-                <p id="aboutme-text">${extraInfo[i]}</p>            
+                <div id ="text">   
+                    <p id="aboutme-text">${extraInfo[i]}</p>            
+                </div>
             </div>
         `;
     };
