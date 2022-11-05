@@ -28,13 +28,14 @@
 
 #margin-slot {  
     text-align: center;
-    margin: 2% 1%;       
+    margin: 2% 1%;
+    padding: 0px 5px;       
 }
 
 #text {      
-    background-color: #141313;
+    background-color: #0e0d0d;
     box-sizing: border-box;
-    border-radius: 15%;   
+    border-radius: 25px;   
     border-width: 100rem;    
     padding: 15px;  
 }
@@ -84,13 +85,13 @@
     
     #skill-slot { margin: 0% 2%; }
 
-    #aboutme { margin: 0% 10%; }
+    #aboutme { margin: 0% 5%; }
     
     #aboutmetwo { margin: 0% 10%; }
    
     #aboutme-text{ font-size: .65rem; }
 
-    #margin-slot { margin: 3% 1%; }
+    #margin-slot { margin: 2% 0%; }
 
-    #text { padding: 5px; }
+    #text { padding: 10px 10px; }
 }
