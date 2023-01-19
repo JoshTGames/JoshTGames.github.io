@@ -30,10 +30,8 @@ let aboutme = fetch('./templates/aboutme.json')
     .then(json => parseAboutInfo(json));
 
 function calculateAge(date){
-    let difference = Date.now() - date.getTime();
-    let age = new Date(difference);
-
-    return Math.abs(age.getUTCFullYear() - 1970)    
+    let age = new Date(Date.now()).getUTCFullYear() - new Date(date.getTime()).getUTCFullYear();
+    return age    
 }
 
 // Parse the about me text into JS
