@@ -31,7 +31,6 @@ let aboutme = fetch('./templates/aboutme.json')
 
 function calculateAge(date){
     let age = new Date(Date.now()).getUTCFullYear() - new Date(date.getTime()).getUTCFullYear();
-    console.log(age);
     return age    
 }
 
