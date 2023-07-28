@@ -3,17 +3,17 @@
         {
             "technology" : "C#",
             "icon" : "images\\skills\\icon_csharp.png?",
-            "duration" : "5 Years+"
+            "duration" : "6 Years+"
         },
         {
             "technology" : "Unity",
             "icon" : "images\\skills\\icon_unity.png?",
-            "duration" : "5 Years+"
+            "duration" : "6 Years+"
         },
         {
             "technology" : "Git",
             "icon" : "images\\skills\\icon_git.png?",
-            "duration" : "2 Years+"
+            "duration" : "3 Years+"
         },
         {
             "technology" : "Python",
@@ -23,7 +23,7 @@
         {
             "technology" : "Javascript",
             "icon" : "images\\skills\\icon_javascript.png?",
-            "duration" : "2 Years+"
+            "duration" : "3 Years+"
         },
         {
             "technology" : "Lua",
