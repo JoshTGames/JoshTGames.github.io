@@ -1,7 +1,7 @@
 {
     "Projects": [
         {   
-            "ishighlighted": true,
+            "ishighlighted": false,
             "name": "Cowboys n' Stuff",
             "page": "/projects/cowboys-n-stuff.html",
             "icon": "images\\projects\\CowboysNStuff.png?",
@@ -14,7 +14,7 @@
         },
         {
             "ishighlighted": false,
-            "name": "3D PCG Animation",
+            "name": "Procedural Animation",
             "page": "/projects/pcg-animation/3d-pcg-animation.html",
             "icon": "images\\projects\\CNS3D.png?",
             "description": "Procedural animation is a great way to dynamically position character joints without spending lots of time creating animation trees. In this case, I use PCG animation to make dynamic walk cycles.",
@@ -93,6 +93,18 @@
             "tags": {
                 "engine": "None",
                 "language": "Python",
+                "madeat": "Home"
+            }
+        },    
+        {
+            "ishighlighted": true,
+            "name": "Procedural Animation V2",
+            "page": "/projects/pca-spidermech.html",
+            "icon": "images\\projects\\spidermech.png?",
+            "description": "This is my new attempt at procedural animation. The motion is more fluent, It allows for motion on any surface (Walls/ Ceiling/ etc...)",
+            "tags": {
+                "engine": "Unity",
+                "language": "C#",
                 "madeat": "Home"
             }
         }        

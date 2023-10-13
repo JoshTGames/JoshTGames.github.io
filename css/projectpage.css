@@ -95,7 +95,7 @@
 }
 
 .main-footer{    
-    display: flex;       
+    display: inline;       
     justify-content: center;
     margin: 0px auto;    
     overflow: hidden; 
