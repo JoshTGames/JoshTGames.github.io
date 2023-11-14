@@ -1,0 +1,176 @@
+.page-title{
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 10px;
+}
+
+.page-heading{
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.page-overview{ display: flex; }
+
+.page-overview-text{
+    display: table;
+    justify-content: center;
+    margin: 2.5% auto;
+}
+
+.page-embed-link{
+    color: #FF8585;
+    text-decoration: none;
+    font-weight: 750;
+    transition: 0.5s;
+}
+
+.page-embed-link:hover{
+    opacity: 0.5;
+    text-decoration: underline;
+}
+
+#button-right{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25px;
+}
+
+.page-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 50px;
+
+
+    background-color: #2B2B2B;
+    color: white;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 0.5rem 1px white;    
+
+    text-decoration: none;
+    font-size: 40px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.page-button:hover{
+    opacity: 0.7;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.page-text{
+    color: rgb(209, 209, 209);
+    text-decoration: none;
+    text-align: center;
+    margin: auto auto;
+}
+
+.page-video{
+    justify-content: center;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 1rem 0.01rem black; 
+    margin: 40px;
+}
+
+.page-interaction{
+    display: grid;
+    justify-items: center;    
+}
+
+
+.project-card{
+    display: grid;
+    justify-content: left;
+    align-items: center;
+    margin: 30px 30px;
+}
+
+.project-card-image{
+    position: relative;
+    color: white;
+    transition: .2s;
+    width: 350px;
+    height: 350px;
+}
+
+.project-card-image img{
+    border: 5px solid black;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 15px #000000;
+    width: 350px;
+    height: 350px;
+}
+
+.project-card-title{
+    display: flex;
+    position: absolute; 
+    background: rgba(0, 0, 0, .75);
+    border-radius: 1rem;
+    color: #ffffff;
+    
+    width: 350px;
+    height: 75px;    
+    bottom: 0px;
+    justify-content: center;
+    align-items: center;   
+    text-align: center; 
+
+    transition: 0.25s;
+}
+.project-card-skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.project-card-skill img{
+    width: 50px;
+    height: auto;
+    padding: 5px;
+    transform: 0.1s;
+}
+
+/* THIS SECTION IS FOR WHEN CONTENT DOES NOT FIT ON SCREEN E.G. Mobile */
+@media screen and (max-width: 960px) {
+    .page-title{
+        -webkit-text-stroke-width: 2px;        
+        font-size: 3rem;
+        padding-top: 10px;
+    }
+    
+    .page-heading{ margin-bottom: 0px; }
+
+    .page-button{        
+        margin-top: 40px;
+        margin-bottom: 10px;
+        width: 200px;
+        height: 50px;
+    }
+
+    .page-overview{ 
+        display: grid; 
+        justify-content: center;
+    }
+    .page-overview-text{ margin: auto auto; }
+
+    .page-video{
+        width: 280px;
+        height: 157.5px;
+    }
+
+    
+    .project-card{
+        justify-content: center;
+        margin: 30px 30px;
+    }
+}

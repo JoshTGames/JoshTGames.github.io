@@ -1,42 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
     <head id="head">        
-        <title id="title">Home</title>
-        <link rel="stylesheet" href="/css/index.css">        
-        <link rel="stylesheet" href="/css/projects.css"> 
+        <title class="title">Home</title>
+        <link rel="stylesheet" href="/css/master.css">        
+        <link rel="stylesheet" href="/css/page.css">        
+        <link rel="stylesheet" href="/css/index.css">      
+        <link rel="stylesheet" href="/css/carousel.css">      
+        
+        <script src="/js/carousel.js" defer></script>
     </head>
-    <body bgcolor="#1A1A1A">
+    <body bgcolor="#3d3d3d">
         <!-- HEADER -->
         <header id="header"></header>    
         <!-- HEADER END -->
 
-        <!-- HERO -->
-        <div class="main-container">
-            <div class="main-content">
-                <!-- SKILLS --> 
-                <div class="main-content-skills">
-                    <h1 id="main-content-title">Skills</h1>
-                    <div id="skills"></div>
-                </div>            
-                <!-- PROJECTS --> 
-                <div id="main-content-highlights">
-                    <h1 id="main-content-title">Highlights</h1>        
-                </div>
-                <!-- ABOUT ME --> 
-                <div class="main-content-aboutme">
-                    <h1 id="main-content-title">About Me</h1>
-                    <div id="aboutme"></div>
-                    <div id="aboutmetwo"></div>
-                </div>
+         <!-- HERO -->
+         <div class="hero">
+            <div class="page-section" style="background-image: linear-gradient(to top, #0E0E0E 0%, #292929 100%);">
+                <span class="profiles">
+                    <div class="profile-container">
+                        <span class="profile-tab">
+                            <p class="profile-emoji">🎓</p>
+                            <p class="profile-text">My Education</p>
+                        </span>                    
+                        <div class="profile-info-text"  id="education"></div>
+                    </div>
+                    <div class="profile-container">
+                        <span class="profile-tab">
+                            <p class="profile-emoji">🔍</p>
+                            <p class="profile-text">My Interests</p>
+                        </span>                    
+                        <div class="profile-info-text" id="interests"></div>
+                    </div>
+                </span>
+                <span class="socials"></span>
             </div>
-        </div>
-        <!-- HERO END -->
+            <div class="page-section" style="background-image: linear-gradient(to top, #3d3d3d 0%, #707070 100%);">
+                <h1 class="page-title">Projects</h1>
+                <span class="carousel">
+                    <a class="carousel-button" id="left"><</a>
+                    <ul class="carousel-content"></ul>
+                    <a class="carousel-button" id="right">></a>
+                </span>
+                <span id="button-right"><a href="/projects.html" class="page-button">View all</a></span>
 
-        <!-- FOOTER -->
-        <footer id="footer"></footer>
-        <!-- FOOTER END -->
-        
-        <script type="text/javascript" src="/js/index.js"></script>    
-        <script type="text/javascript" src="/js/load-master.js"></script>    
+            </div>
+         </div>    
+         <!-- HERO END -->
+
+         <script type="text/javascript" src="/js/master.js"></script>    
+         <script type="text/javascript" src="/js/index.js"></script>    
     </body>
 </html>

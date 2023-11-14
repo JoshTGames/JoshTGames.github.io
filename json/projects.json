@@ -1,0 +1,87 @@
+{
+    "icons": "/content\\images\\projects\\",
+    "videos": "/content\\videos\\projects\\",
+    "pages": "\\projects\\",
+    "projects":[
+        {
+            "name": "Cowboys n' Stuff",
+            "short_hand_code": "cns",
+            "icon": "cns.png?",
+            "video": "cns.mp4",
+            "page": "cowboys-n-stuff.html",
+            "description": "My first published game; 2D-topdown arcade shooter",
+            "is_visible": true,
+            "skills":["unity", "c#"]         
+        },
+        {
+            "name": "Conjoined Game",
+            "short_hand_code": "conjoined",
+            "icon": "conjoinedgame.png?",
+            "video": "",
+            "page": "conjoined-game.html",
+            "description": "1st year university team project; Third-person story combat-driven adventure game",
+            "is_visible": true,
+            "skills":["unity", "c#", "git"]         
+        },
+        {
+            "name": "Gruttel Scuttle",
+            "short_hand_code": "gruttel",
+            "icon": "gruttelgame.png?",
+            "video": "",
+            "page": "gruttel-scuttle.html",
+            "description": "2nd year university team project; Fast-paced micro-managing strategy game",
+            "is_visible": true,
+            "skills":["unity", "c#", "git"]         
+        },
+        {
+            "name": "Tank Game (Comp280)",
+            "short_hand_code": "comp280",
+            "icon": "comp280.png?",
+            "video": "comp280.mp4",
+            "page": "tank-game.html",
+            "description": "2nd year university project; Making use of UI, AI and Networking",
+            "is_visible": true,
+            "skills":["unity", "c#", "git"]         
+        },
+        {
+            "name": "GOAP AI (Comp250)",
+            "short_hand_code": "comp250",
+            "icon": "comp250.png?",
+            "video": "",
+            "page": "",
+            "description": "2nd year university project; Making use of 'Goal Orientated Action Planning'",
+            "is_visible": false,
+            "skills":["unity", "c#", "git"]         
+        },
+        {
+            "name": "Big AI Project (Gam340)",
+            "short_hand_code": "gam340",            
+            "icon": "gam340.png?",
+            "video": "gam340.mp4",
+            "page": "big-ai-project.html",
+            "description": "3rd year university team project; I developed a behaviour tree based AI using environmental sensors such as sight and hearing to perform actions in the world",
+            "is_visible": true,
+            "skills":["unity", "c#", "git"]         
+        },
+        {
+            "name": "Procedural Animation",
+            "short_hand_code": "pca",            
+            "icon": "spidermech.png?",
+            "video": "pca.mp4",
+            "page": "procedural-animation.html",
+            "description": "Personal project; Pursuing my interest in procedural animation, I tried revamping my procedural animation system",
+            "is_visible": true,
+            "skills":["unity", "c#", "git"]         
+        },
+        {
+            "name": "Procedural Animation V1",
+            "short_hand_code": "pca1",            
+            "icon": "cns3d.png?",
+            "video": "spidermech.mp4",
+            "page": "procedural-animation-v1.html",
+            "description": "Personal project; My first attempt at procedural animation made for blocky based characters",
+            "is_visible": false,
+            "skills":["unity", "c#"]         
+        }
+    ]
+}

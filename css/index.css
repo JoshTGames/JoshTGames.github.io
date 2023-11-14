@@ -1,96 +1,97 @@
-* {    
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: '', sans-serif;
-}
-
-#main-content-title {
+.profiles{
     display: flex;
-    font-size: 2rem;    
-    text-align: center; 
     justify-content: center;
-    align-items: center;
-    position: sticky;
-    margin: 1% 10%;   
-    
-    color: #a30909;    
 }
 
-#skills {
+.profile-container{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.profile-tab{
+    margin: auto;
     display: flex;
-    font-size: 2rem;        
-    justify-content: center;
+    margin-bottom: 20px;
     align-items: center;
-    position: sticky;        
-    transition: .2s;
+    width: 200px;
+    background-color: #2B2B2B;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 0.5rem 1px white;    
 }
 
-#margin-slot {  
+.profile-emoji{
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    background-color: #747474;
+    border-radius: 1rem;
+    border: 2px solid white;
+}
+
+.profile-text{
+    margin-left: 25px;
+    font-weight: 750;
+    color: white;
+}
+
+.profile-info-text{
+    color: white;
+    padding-bottom: 25px;
+    font-weight: 500;   
     text-align: center;
-    margin: 2% 1%;
-    padding: 0px 5px;       
 }
 
-#text {      
-    background-color: #0e0d0d;
-    box-sizing: border-box;
-    border-radius: 25px;       
-    padding: 15px;  
-}
-
-#skill-label{
-    font-weight: 1000;
-    font-size: 1.1rem;
-    color: #ffffff;  
-}
-
-#skill-duration-label{
-    font-size: 1rem;
-    color: #ffffff;  
-}
-
-#aboutme {
-    display: flex;         
+.socials{
+    display: flex;
     justify-content: center;
-    align-items: top;
-    position: sticky;  
-    text-align: center;
-    margin: 0% 25%;    
 }
 
-#aboutmetwo {
-    display: block;         
-    justify-content: center;
-    align-items: top;
-    position: sticky;  
-    text-align: center;
-    margin: 0% 25%;    
-}
-
-#aboutme-text{    
-    font-size: 1rem;
-    color: #ffffff;  
-}
-
-#embedURL{
+.social-icon{    
+    padding: 5px;
     text-decoration: none;
-    color: #ff6b6b;
+    color: white;
+    transition: 0.3s;
+}
+
+.social-icon img{
+    width: 40px;
+    height: 40px;
+}
+
+.social-icon:hover{
+    opacity: 0.7;
+    transform: scale(1.1);
 }
 
 /* THIS SECTION IS FOR WHEN CONTENT DOES NOT FIT ON SCREEN E.G. Mobile */
 @media screen and (max-width: 960px) {
-    #skills { transform: scale(.65,.65); }
-    
-    #skill-slot { margin: 0% 2%; }
+    .profiles{
+        display: grid;
+    }
+    .profile-container{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
 
-    #aboutme { margin: 0% 5%; }
-    
-    #aboutmetwo { margin: 0% 10%; }
-   
-    #aboutme-text{ font-size: .65rem; }
+    .profile-tab{        
+        margin-bottom: 10px;
+        width: 200px;
+        box-shadow: 0px 0px 0.25rem 1px white;    
+    }
 
-    #margin-slot { margin: 2% 0%; }
+    .profile-text{
+        margin-left: 25px;
+        font-weight: 750;
+    }
 
-    #text { padding: 10px 10px; }
+    .profile-info-text{
+        padding-bottom: 5px;
+        font-weight: 500;   
+        font-size: .75rem;
+    }
+
+    .socials{ margin-top: 20px; }
 }

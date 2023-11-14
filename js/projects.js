@@ -1,41 +1,41 @@
-// Gets the projects i have inputted into the json file
-let projects = fetch('./templates/projects.json')   
-    .then(response => response.json())
-    .then(json => parseProjectsInfo(json));
+// Load required json files
+let projectJsonData = ['/json/projects.json', '/json/skills.json'];
+Promise.all(projectJsonData.map(url => fetch(url).then(response => response.json())))
+.then(jsons => generateProjects(jsons))
+.catch(error => console.error('Error:', error));
+// --
 
-// Parse the projects information into JS
-async function parseProjectsInfo(json){
-    let projects = json.Projects;    
-    let projectObjs = "";
-    
-    for(let i = 0; i < projects.length; i++){
-        let tags = `
-            <p class="tag" id="tag-project-engine">${projects[i].tags.engine}</p>
-            <p class="tag" id="tag-project-language">${projects[i].tags.language}</p>
-            <p class="tag" id="tag-project-madeat">${projects[i].tags.madeat}</p>
-        `;
+function generateProjects(jsonData){
+    const container = document.querySelector('.project-container');
+    const projectsData = jsonData[0];
+    const projects = projectsData.projects
 
-        projectObjs += `
-        <div id="projects-content">
-        <a href= ${projects[i].page}>
-            <div id="projects-card">
-                <div id="projects-img">
-                    <img src=${projects[i].icon}>
-                </div>
-                <div id="projects-title">${projects[i].name}</div>
-                <div id="projects-description">${projects[i].description}</div>                     
-            </div>
-            
-        </a>
-        <div id="tags">${tags}</div>
-        </div>
+    const skillsData = jsonData[1];
+    const skills = skillsData.skills;
+
+    let containerHTML = ``;
+    projects.forEach(project => {
+        if(!project.is_visible){ return; }
+        let icons = ``;
+        project.skills.forEach(skill => {
+            icons += `<div class="card-skill"><img src="${skillsData.icons + skills[skill].icon}" draggable="false"></div>`
+        });
+        
+        containerHTML += `
+            <li class="card">
+                <a href="${projectsData.pages + project.page}" class="card-image">
+                    <img src="${projectsData.icons + project.icon}" draggable="false">
+                    <h2 class="card-title">${project.name}</h2>
+                    <div class="card-video">
+                        <video autoplay muted loop>
+                            <source src="${projectsData.videos + project.video}" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="card-brief"><p class="card-brief-text">${project.description}</p></div>
+                </a>
+                <span class="card-skills">${icons}</span>
+            </li>
         `;
-    }
-    
-    element = document.getElementById("main-content-projects");
-    element.innerHTML += `
-        <div id="projects-container-grid">
-            ${projectObjs}
-        </div>          
-    `;     
+    });
+    container.innerHTML = containerHTML;
 }

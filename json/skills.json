@@ -1,0 +1,37 @@
+{
+    "icons": "/content\\images\\skills\\",
+    "skills":{
+        "c#": {
+            "icon": "icon_csharp.png?",
+            "duration": "6"
+        },     
+        "unity": {
+            "icon": "icon_unity.png?",
+            "duration": "6"
+        }, 
+        "git": {
+            "icon": "icon_git.png?",
+            "duration": "3"
+        }, 
+        "python": {
+            "icon": "icon_python.png?",
+            "duration": "5"
+        }, 
+        "javascript": {
+            "icon": "icon_javascript.png?",
+            "duration": "3"
+        }, 
+        "lua": {
+            "icon": "icon_lua.png?",
+            "duration": "5"
+        },
+        "unreal":{
+            "icon": "",
+            "duration": "1"
+        },
+        "c++":{
+            "icon": "",
+            "duration": "1"
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "education":["🎓 Graduate at Falmouth University 🎓", "🎮 2:1 in BA(Hons) Game Development: Programming 🎮", "📜 Studying MA Indie Game Development (Part-time)📜"],
+    "interests":["🤖 Developing Game AI 🤖", "⚙️ Procedural Content - Especially procedural animation ⚙️", "❤️ Caramel shortbread ❤️"],
+    "socials":{
+        "icons":"content\\images\\socials\\",
+        "social_data":[
+            {
+                "name":"LinkedIn",
+                "icon":"icon_linkedin.png?",
+                "url":"https://www.linkedin.com/in/joshgames/"
+            },
+            {
+                "name":"Github",
+                "icon":"icon_github.png?",
+                "url":"https://github.com/joshtgames"
+            },
+            {
+                "name":"Youtube",
+                "icon":"icon_youtube.png?",
+                "url":"https://www.youtube.com/channel/UCBj3Tk92JAV8sYzKatCZfow"
+            },
+            {
+                "name":"Twitter",
+                "icon":"icon_twitter.png?",
+                "url":"https://twitter.com/JoshTGames"
+            }
+        ]
+    }
+}

@@ -1,181 +1,172 @@
-* {    
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: '', sans-serif;
-}
-
-#main-content-title {
-    display: flex;
-    font-size: 2rem;    
-    text-align: center; 
-    justify-content: center;
-    align-items: center;
-    position: sticky;
-    margin: 1% 10%;   
-    
-    color: #a30909;    
-}
-
-#projects-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;  
-    margin:30px 0px;;
-}
-
-#projects-container-grid{
+.project-container{
     display: grid;
     grid-template-columns: auto auto auto;
+    justify-content: center;
     align-items: center;
-    justify-content: center;  
-    margin: 30px 450px;    
+    list-style-type: none;
 }
 
-#projects-card{
-    background: #303030;
-    width: 250px;
-    height: 250px;
-    display: flex;
-    align-items: center;    
+.card{
+    display: inherit;
     justify-content: center;
-    border-radius: .2rem;
-    border: 5px solid black;
-    box-shadow: 7px 7px 15px #000000;
-    margin: 0px 30px;
+    align-items: center;
+    margin: 20px 20px;
+}
+
+.card-image{
+    position: relative;
+    color: white;
     transition: .2s;
+    width: 300px;
+    height: 300px;
 }
 
-#projects-card #projects-img img{
-    height: 100%;
-    width: 100%;
-    border-radius: .2rem;    
+.card-image:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
-#projects-img{    
-    margin-top: 4px;
-    text-align: center;
-}
 
-#tags{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;  
-    text-align: center;
-
-    margin: 30px 85px;
-}
-
-.tag{
-    display: flex;    
-    color: #ffffff;
-    text-decoration: none;    
+.card-image img{
+    border: 5px solid black;
     border-radius: 1rem;
+    box-shadow: 0px 0px 15px #000000;
+    width: 300px;
+    height: 300px;
+}
 
-    text-align: center;
+
+.card-title{
+    display: flex;
+    position: absolute; 
+    background: rgba(0, 0, 0, .75);
+    border-radius: 1rem;
+    color: #ffffff;
+    
+    width: 300px;
+    height: 75px;    
+    bottom: 0px;
+    justify-content: center;
+    align-items: center;   
+    text-align: center; 
+
+    transition: 0.25s;
+}
+
+.card-brief{
+    display: flex;
+    position: absolute;
+    background: rgba(22, 22, 22, 0.75);
+    border-radius: 1rem;
+    opacity: 0;    
+    visibility: hidden; 
+
+    width: 300px;
+    height: 300px;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;   
+    text-align: center; 
+
+    transition: 0.5s;
+}
+
+.card-brief-text{ padding: 20px; }
+
+.card-skills{
+    display: flex;
     justify-content: center;
     align-items: center;
-
-    width: 40px;
-    height: 20px;  
-
-    font-size: .75rem;
+    margin-top: 5px;
 }
 
-#tag-project-engine{ background: #d14242;; }
-#tag-project-language{ background: rgb(73, 173, 73); }
-#tag-project-madeat{ background: rgb(70, 70, 250); }
-
-
-#projects-title{
-    display: flex;
-    background: rgba(0, 0, 0, .75);
-    color: #ffffff;
-    font-size: 1.5rem;
-    position: absolute; 
-    
-    width: 250px;
-    height: 50px;    
-   
-    justify-content: center;
-    align-items: center;    
-    margin-top: 200px;          
+.card-skill img{
+    width: 50px;
+    height: auto;
+    padding: 5px;
+    transform: 0.1s;
 }
 
-#projects-description{
-    display: flex;
-    background: rgba(22, 22, 22, 0.75);
-    color: #ffffff;
-    font-size: .85rem;
-    position: absolute; 
-    
-    width: 250px;
-    height: 250px;    
-    
-    text-align: center;
-    justify-content: center;
-    align-items: center;       
-
-    opacity: 0;    
-    visibility: hidden;    
-    padding: 20px 20px;
-}
-
-#projects-card:hover{
-    cursor: pointer;
-    transform: scale(1.1);     
-}
-
-#projects-card:hover #projects-description {         
+.card-skills{
     opacity: 1;
-    visibility: visible;   
+    transition: 0.25s;
 }
 
-#projects-card:hover #projects-title{ opacity: 0; }
+.card-video{    
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+
+    justify-content: center;
+    align-items: center;
+    background: rgba(22, 22, 22, 0.75);
+    border-radius: 1rem;
+    border: 5px solid black;
+
+    bottom: 0;
+    max-width: 300px;
+    width: auto;
+    height: 300px;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+.card-video video{
+    width: auto;
+    height: 300px;
+}
+.card-image:hover .card-video{
+    visibility: visible;
+    opacity: 1;
+}
+
+.card:hover .card-skills{ opacity: 0; }
+
+.card-image:hover .card-title{ opacity: 0; }
+.card-image:hover .card-brief{ 
+    visibility: visible; 
+    opacity: 1;
+}
 
 /* THIS SECTION IS FOR WHEN CONTENT DOES NOT FIT ON SCREEN E.G. Mobile */
 @media screen and (max-width: 960px) {
-    #main-content-title {
-        display: flex;
-        font-size: 2rem;    
-        text-align: center; 
-        justify-content: center;
-        align-items: center;
-        position: sticky;
-        margin: 1% 10%;           
-        color: #a30909;      
+    .project-container{ grid-template-columns: auto; }
+
+    .card{ margin: 10px 10px; }
+
+    .card-image{
+        width: 300px;
+        height: 300px;
     }
 
-    #projects-container{ margin: 15px 0px; }
-    #projects-container-grid{ margin: 15px auto; }
-
-    #projects-card{        
-        width: 100px;
-        height: 100px;     
-        margin: 0px 10px;
+    .card-image img{
+        width: 300px;
+        height: 300px;
     }
 
-    #projects-title{                
-        font-size: .7rem;  
-        width: 100px;
-        height: 25px;       
-        margin-top: 75px;
+    .card-title{
+        border-radius: .5rem;        
+        width: 300px;
+        height: 50px;    
     }
 
-    #projects-description{        
-        font-size: .3rem;      
-        
-        width: 100px;
-        height: 100px;  
+    .card-brief{
+        width: 300px;
+        height: 300px;
     }
 
-    #tags{        
-        margin: 10px 25px;
+    .card-video{    
+        max-width: 300px;
+        width: auto;
+        height: 300px;
     }
-    
-    .tag{        
-        width: 20px;
-        height: 10px;      
-        font-size: .4rem;
+
+    .card-video video{
+        width: auto;
+        height: 300px;
     }
+
+    .card-image:hover{ transform: scale(1.025); }
 }

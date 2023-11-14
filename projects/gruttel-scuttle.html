@@ -1,70 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
     <head id="head">        
-        <title id="title">Gruttle Scuttle</title>
-        <link rel="stylesheet" href="/css/projectpage.css">    
+        <title class="title" id="gruttel">Gruttel Scuttle</title>
+        <link rel="stylesheet" href="/css/master.css">        
+        <link rel="stylesheet" href="/css/page.css">
+        <link rel="stylesheet" href="/css/carousel.css">
+
+        <script src="/js/editable_carousel.js" defer></script>
     </head>
-    <body bgcolor="#1A1A1A">
+    <body bgcolor="#3d3d3d">
         <!-- HEADER -->
         <header id="header"></header>    
         <!-- HEADER END -->
 
-        <!-- HERO -->
-        <div class="main-container">
-            <div class="main-header">
-                <h1 id="main-content-title">Gruttel Scuttle</h1> 
-                <div id="last-updated-label">Last updated: 14/10/2022</div>
-
-                <div id="main-header-content">
-                    <div id="projects-container">
-                        <div id="projects-card">
-                            <div id="projects-img"> <img src="\images\\projects\\GruttelGame.png?" alt="Gruttel Scuttle Logo"}> </div>  
+         <!-- HERO -->
+         <div class="hero">
+            <div class="page-section" style="background-image: linear-gradient(to top, #0E0E0E 0%, #292929 100%);">
+                <h1 class="page-title"></h1>
+                <p class="page-text" style="color: #FF8585;">Last Updated: 09/11/2023</p>
+                <span class="page-overview">
+                    <div class="page-icon"></div>
+                    <div class="page-overview-text">
+                        <h2 class="page-heading">Overview</h2>
+                        <div class="page-text" style="margin-bottom: 10px; max-width: 80%;">
+                            <p>Gruttel Scuttle is my 2nd team project with a large quantity of people from various disciplines in university and can be played <a href="https://trojanmouse-games.itch.io/gruttel-scuttle" class="page-embed-link" target="_blank" rel="noopener noreferrer">here!</a></p>
+                            <p>Development spanned around 9 months starting during september 2021 ending on may 2022</p>
+                            <p style="margin-top: 25px;">I was in charge of the back-end game systems of this project; developing the game-loop, "litter throwing" system into the level and "region" system which tells the AI where to go. I also assisted 2 of our other programmers with AI and other systems.</p>
                         </div>
-                        <div id="tags">
-                            <p class="tag" id="tag-project-engine">Unity</p>
-                            <p class="tag" id="tag-project-language">C#</p>
-                            <p class="tag" id="tag-project-madeat">Uni</p>
-                        </div>      
-                    </div>     
-                    
-                    <div id="overview">
-                        <h2 id="section-heading">Overview</h2>                         
-                        <p>"Gruttel Scuttle is a fast-paced strategy management game, proudly produced by Trojan Mouse, a dedicated team of second-year game development students."</p>                        
-                        <p></p>
-                        <p>* Team project developed during 2nd year at Falmouth University (2021-2022)</p>
-                        <p>* Team of 15 members</p>
-                        <p></p>
-                        <p>Get Gruttle Scuttle <a href='https://trojanmouse-games.itch.io/gruttel-scuttle' target='_blank' rel='noopener noreferrer' id='embedURL'>here!</a></p>
-                    </div>
-                </div>                
+                        <div class="page-interaction">
+                            <iframe width="560" height="315" class="page-video" src="https://www.youtube.com/embed/BES0WkYXtyE?si=NJnc6dTp5t039zl8&amp; controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+                        </div>
+                    </div>   
+                </span>
             </div>
-            <div class="main-hero"> 
-                <h2 id="section-heading">My Involvement</h2>
-                <p>In Gruttel Scuttle I took on the core gameplay programmer role. I programmed a whole variety of mechanics and helped out with a fair amount of issues raised from the other programmers on the team. This project is made with C# and Unity and really allowed me to test out my skills with the C# language.</p>                
-                <p><div class = "list">Gameplay loop</div></p>
-                <p>I programmed the gameplay loop for this game which made heavy use of a behaviour tree algorithm in order to process each state the game needed to be in. I believe this to be a great idea because it provided a way to add a variety of behaviours into each state and easily see what state the game is in. It also provided an easy way for designers to decide what happens in each state.</p>
-                <p><div class = "list">Regions</div></p>
-                <p>This is one of the first mechanics I programmed for this game, it provided a way for designers to define areas in the map where game events occur... For example you could define a region as a 'Litter Region' and that would then be an area litter would be thrown inside. Another pre-defined region is a 'Home' region which is where Gruttels would go after they have picked up litter.</p>
-                <p><div class = "list">Litter Throwing</div></p>
-                <p>This was added mid-way through the development of Gruttel Scuttle. It uses an algorithm called "Ballistic Trajectory", this algorithm calculates the angle and force needed in order to shoot objects to land at a certain position. I tapped into my region script with this to get a random position inside the region and this would then shoot litter into that region at the random position inside that region.</p>
-                <p><div class = "list">Gruttel Selection</div></p>
-                <p>This is one of the last mechanics introduced into the project. It taps into another programmers script and allows one to select the Gruttels they wish to play with and then add 'powerups' to some of those Gruttels to allow them to pick up unique pieces of litter. This system alongside my other mechanics I programmed were plugged into my gameplay loop to get everything operating in the correct order.</p>
-                <p></p>
-                <p></p>
-                <p></p>
-                <p>My favourite mechanic I worked on would either be the gameplay loop or the litter throwing system, with the gameplay loop I decided to use a behaviour tree because it provides a more accessible way to customise how the gameloop operates without fiddling with lots of code. Im happy I got to implement this because behaviour trees are often used with artificial intelligence systems and because of this opportunity, I was able to implement this and reinforce my skills with artificial intelligence algorithms. The Litter Throwing mechanic was fun to make as well, especially with the testing portion of it. I was spawning hundreds of objects a second and trying to get them landing at a point, then moving that point in real-time - Watching the shooting object rotate to ensure the objects land at the correct position.</p>
-            </div> 
-            <div class="main-footer">                
-                <iframe class="project-video" width="854" height="480" src="https://www.youtube.com/embed/BES0WkYXtyE" title="Trojan Mouse Games - Gruttel Scuttle Gameplay Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+            <div class="page-section" style="background-image: linear-gradient(to top, #3d3d3d 0%, #707070 100%);">
+                <span class="carousel">
+                    <a class="carousel-button" id="left"><</a>
+                    <ul class="carousel-content" style="padding-bottom: 40px;">
+                        <li class="carousel-card"><div class="carousel-card-image" style="width: 360px; height: 202.5px; cursor: default;"><img src="/content\\images\\carousel-images\\gruttel\\1.png?" draggable="false" style="width: 360px; height: 202.5px;"></div></li>
+                        <li class="carousel-card"><div class="carousel-card-image" style="width: 360px; height: 202.5px; cursor: default;"><img src="/content\\images\\carousel-images\\gruttel\\2.png?" draggable="false" style="width: 360px; height: 202.5px;"></div></li>
+                        <li class="carousel-card"><div class="carousel-card-image" style="width: 360px; height: 202.5px; cursor: default;"><img src="/content\\images\\carousel-images\\gruttel\\3.png?" draggable="false" style="width: 360px; height: 202.5px;"></div></li>
+                        <li class="carousel-card"><div class="carousel-card-image" style="width: 360px; height: 202.5px; cursor: default;"><img src="/content\\images\\carousel-images\\gruttel\\4.png?" draggable="false" style="width: 360px; height: 202.5px;"></div></li>
+                        <li class="carousel-card"><div class="carousel-card-image" style="width: 360px; height: 202.5px; cursor: default;"><img src="/content\\images\\carousel-images\\gruttel\\5.png?" draggable="false" style="width: 360px; height: 202.5px;"></div></li>
+                    </ul>
+                    <a class="carousel-button" id="right">></a>
+                </span>
             </div>
-            
-        </div>
-        <!-- HERO END -->
+         </div>    
+         <!-- HERO END -->
 
-        <!-- FOOTER -->
-        <footer id="footer"></footer>
-        <!-- FOOTER END -->        
-           
-        <script type="text/javascript" src="/js/load-master.js"></script>    
+         <script type="text/javascript" src="/js/project-page-template.js"></script>    
+         <script type="text/javascript" src="/js/master.js"></script>    
     </body>
 </html>
