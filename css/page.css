@@ -173,4 +173,6 @@
         justify-content: center;
         margin: 30px 30px;
     }
+
+    #button-right{ justify-content: center; }
 }

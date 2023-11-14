@@ -177,6 +177,7 @@
 .carousel-card-image:hover .carousel-card-title{ opacity: 0; }
 
 .carousel-card-image:hover .carousel-card-video{
+    display: none;
     visibility: visible;
     opacity: 1;
 }
