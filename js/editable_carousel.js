@@ -48,7 +48,6 @@ const dragging = (e) =>{
 }
 
 const infiniteScroll = () => {
-    console.log(`${carousel.scrollLeft} / ${Math.ceil(carousel.scrollWidth - carousel.offsetWidth)}`);
     // If at beginning, scroll to end
     if(Math.round(carousel.scrollLeft) - 1 <= 0){
         carousel.classList.add('no-smooth');

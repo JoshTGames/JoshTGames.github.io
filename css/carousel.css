@@ -1,14 +1,18 @@
 .carousel{
     display: grid;
+    /* grid-template-columns: auto auto auto; */
     align-items: center;
+
+    margin: auto auto;    
+    max-width: 1500px;
 }
 
 .carousel-button{
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     text-align: center;
-    line-height: 100px;
+    line-height: 75px;
     border-radius: 50%;
 
     font-weight: 1000;
@@ -22,9 +26,8 @@
     transition: 0.3s;
 }
 
-.carousel-button:first-child{ left: 22px; }
-
-.carousel-button:last-child{ right: 22px; }
+.carousel-button:first-child{ left: 5vw; }
+.carousel-button:last-child{ right: 5vw; }
 
 .carousel-button:hover{
     opacity: 0.7;
@@ -128,7 +131,7 @@
 .carousel-card-brief-text{ padding: 20px; }
 
 .carousel-card-video{    
-    display: flex;
+    display: none;
     position: absolute;
     overflow: hidden;
 
@@ -177,7 +180,7 @@
 .carousel-card-image:hover .carousel-card-title{ opacity: 0; }
 
 .carousel-card-image:hover .carousel-card-video{
-    display: none;
+    display: flex;
     visibility: visible;
     opacity: 1;
 }
@@ -186,7 +189,6 @@
     visibility: visible; 
     opacity: 1;
 }
-
 
 /* THIS SECTION IS FOR WHEN CONTENT DOES NOT FIT ON SCREEN E.G. Mobile */
 @media screen and (max-width: 960px) {
