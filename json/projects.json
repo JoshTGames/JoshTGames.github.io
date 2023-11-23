@@ -77,11 +77,31 @@
             "name": "Procedural Animation V1",
             "short_hand_code": "pca1",            
             "icon": "cns3d.png?",
-            "video": "spidermech.mp4",
+            "video": "",
             "page": "procedural-animation-v1.html",
             "description": "Personal project; My first attempt at procedural animation made for blocky based characters",
             "is_visible": false,
             "skills":["unity", "c#"]         
+        },
+        {
+            "name": "Lone Sol",
+            "short_hand_code": "lonesol",            
+            "icon": "lonesol.png?",
+            "video": "",
+            "page": "lone-sol.html",
+            "description": "3rd year university team project; Narrative driven Solarpunk Adventure",
+            "is_visible": true,
+            "skills":["unreal", "git"]         
+        },
+        {
+            "name": "2D Unreal Platformer",
+            "short_hand_code": "ri2",            
+            "icon": "ri2.png?",
+            "video": "ri2.mp4",
+            "page": "unreal-platformer.html",
+            "description": "Part of a 'Rapid Ideation' session in my masters course (Spanning 2 weeks), I wanted to try Unreal Engine 5 for myself",
+            "is_visible": true,
+            "skills":["unreal", "git"]         
         }
     ]
 }
