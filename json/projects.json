@@ -4,6 +4,36 @@
     "pages": "\\projects\\",
     "projects":[
         {
+            "name": "Reclaim Our Lands",
+            "short_hand_code": "rol",            
+            "icon": "rol.png?",
+            "video": "rol.mp4",
+            "page": "reclaim-our-lands.html",
+            "description": "3D top-down manic micro-managing tower defence with a growing world. Masters project at university, had us making use of every game development discipline.",
+            "is_visible": true,
+            "skills":["unity", "c#", "git"]         
+        },
+        {
+            "name": "Procedural Animation",
+            "short_hand_code": "pca",            
+            "icon": "spidermech.png?",
+            "video": "pca.mp4",
+            "page": "procedural-animation.html",
+            "description": "Personal project; Pursuing my interest in procedural animation, I tried revamping my procedural animation system",
+            "is_visible": true,
+            "skills":["unity", "c#", "git"]         
+        },
+        {
+            "name": "Lone Sol",
+            "short_hand_code": "lonesol",            
+            "icon": "lonesol.png?",
+            "video": "",
+            "page": "lone-sol.html",
+            "description": "3rd year university team project; Narrative driven Solarpunk Adventure",
+            "is_visible": true,
+            "skills":["unreal", "git"]         
+        },
+        {
             "name": "Cowboys n' Stuff",
             "short_hand_code": "cns",
             "icon": "cns.png?",
@@ -62,17 +92,7 @@
             "description": "3rd year university team project; I developed a behaviour tree based AI using environmental sensors such as sight and hearing to perform actions in the world",
             "is_visible": true,
             "skills":["unity", "c#", "git"]         
-        },
-        {
-            "name": "Procedural Animation",
-            "short_hand_code": "pca",            
-            "icon": "spidermech.png?",
-            "video": "pca.mp4",
-            "page": "procedural-animation.html",
-            "description": "Personal project; Pursuing my interest in procedural animation, I tried revamping my procedural animation system",
-            "is_visible": true,
-            "skills":["unity", "c#", "git"]         
-        },
+        },        
         {
             "name": "Procedural Animation V1",
             "short_hand_code": "pca1",            
@@ -82,16 +102,6 @@
             "description": "Personal project; My first attempt at procedural animation made for blocky based characters",
             "is_visible": false,
             "skills":["unity", "c#"]         
-        },
-        {
-            "name": "Lone Sol",
-            "short_hand_code": "lonesol",            
-            "icon": "lonesol.png?",
-            "video": "",
-            "page": "lone-sol.html",
-            "description": "3rd year university team project; Narrative driven Solarpunk Adventure",
-            "is_visible": true,
-            "skills":["unreal", "git"]         
         },
         {
             "name": "2D Unreal Platformer",
