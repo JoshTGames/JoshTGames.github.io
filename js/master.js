@@ -70,7 +70,6 @@ function generateMain(data){
 // Scroll FX
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
-        console.log(entry);
         switch(entry.isIntersecting){
             case true:
                 entry.target.classList.add("show");

@@ -3,23 +3,23 @@
     "skills":{
         "c#": {
             "icon": "icon_csharp.png?",
-            "duration": "6"
+            "duration": "9"
         },     
         "unity": {
             "icon": "icon_unity.png?",
-            "duration": "6"
+            "duration": "9"
         }, 
         "git": {
             "icon": "icon_git.png?",
-            "duration": "3"
+            "duration": "6"
         }, 
         "python": {
             "icon": "icon_python.png?",
-            "duration": "5"
+            "duration": "7"
         }, 
         "javascript": {
             "icon": "icon_javascript.png?",
-            "duration": "3"
+            "duration": "4"
         }, 
         "lua": {
             "icon": "icon_lua.png?",

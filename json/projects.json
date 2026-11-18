@@ -4,6 +4,26 @@
     "pages": "\\projects\\",
     "projects":[
         {
+            "name": "Sky High",
+            "short_hand_code": "sh",            
+            "icon": "sh.png?",
+            "video": "sh.mp4",
+            "page": "sky-high.html",
+            "description": "A masters project made by me and Matt Roberts. I harnessed strong steering behaviours and A* pathfinding to make life-like bird flocks.",
+            "is_visible": true,
+            "skills":["unity", "c#", "git"]         
+        },
+        {
+            "name": "Cozy Cafe",
+            "short_hand_code": "cc",            
+            "icon": "cc.png?",
+            "video": "cc.mp4",
+            "page": "cozy-cafe.html",
+            "description": "A masters project made with a group of people, I developed an interaction system, dialogue tree systems, camera manipulation system and more!",
+            "is_visible": true,
+            "skills":["unity", "c#", "git"]         
+        },
+        {
             "name": "Reclaim Our Lands",
             "short_hand_code": "rol",            
             "icon": "rol.png?",
