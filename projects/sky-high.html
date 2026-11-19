@@ -18,7 +18,7 @@
             <div class="page-section" style="background-image: linear-gradient(to top, #0E0E0E 0%, #292929 100%);">
                 <div class="hidden">
                     <h1 class="page-title"></h1>
-                    <p class="page-text" style="color: #FF8585;">Last Updated: 18/11/2026</p>
+                    <p class="page-text" style="color: #FF8585;">Last Updated: 19/11/2026</p>
                     <span class="page-overview">
                         <div class="page-icon"></div>
                         <div class="page-overview-text">
@@ -55,10 +55,9 @@
             <div class="page-section" style="background-image: linear-gradient(to top, #0E0E0E 0%, #292929 100%);">
                 <div class="hidden" style="margin-left: 25px; margin-right: 25px; padding-bottom: 25px;">
                     <h2 class="page-heading" style="padding-top: 10px;">My Involvement</h2>
-                    <p class="page-text">Every interactable in this project derives from a single 'base class' called Entity. From that entity class, we have structures, characters, resources and more! This system is paired with a variety of C# interfaces to help improve code modularity and readability. This approach allowed me to easily create tooltip systems and UI which revolve around this system; providing information to the player.</p>
-                    <p class="page-text" style="padding-top: 10px;">The various characters in this game make use of steering behaviours to navigate around the world and avoid obstacles. In addition, their class is programmed to take in instructions. This is especially prevalent in the 'Human' characters because the player can give them alot of different instructions.</p>
-                    <p class="page-text" style="padding-top: 10px;">The dialogue system uses a profile system to change the speakers pitch and speaking speed to give each speaker its own personality.</p>
-                    <p class="page-text" style="padding-top: 10px;">The tutorial system is built ontop of the dialogue system and waits for various actions to be completed until the next dialogue continues.</p>
+                    <p class="page-text">The bird controller + procedural animations using rotational maths on the armature of the bird</p>
+                    <p class="page-text" style="padding-top: 10px;">My implementation of A* which I like to label my "Unlocked A* Pathfinding" Because its grid based but not bound to a typically defined grid. It uses world space and simply branches out. This implementation can theoretically could go infinitely in any direction. However, to keep it in check there is a "max iterations" variable to keep it bound.</p>
+                    <p class="page-text" style="padding-top: 10px;">The weighted steering behaviours stacked ontop of A* to mimic flock behaviours and obstacle avoidance.</p>
                 </div>
             </div>
          </div>    
